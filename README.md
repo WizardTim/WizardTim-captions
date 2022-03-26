@@ -1,6 +1,8 @@
 # WizardTim Captions
 Captions/subtitles for the [WizardTim YouTube channel](https://www.youtube.com/WizardTim) videos and other content.
 
+This repository is mostly just for me to keep better track of changes and to backup the files for each video, but I've made it public in case others want to do stuff with it.
+
 ## YouTube Videos
 | #  | Title (en-AU)                                                                                                 | Title & Description                                      | Captions                                            |
 |---:|---------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|-----------------------------------------------------|
@@ -22,23 +24,26 @@ Captions/subtitles for the [WizardTim YouTube channel](https://www.youtube.com/W
 |  1 | [PSU 3/4" Binding Post to USB A Adapter Assembly](https://www.youtube.com/watch?v=g8ivYxvZa-0)                | [en-AU](./WT-YT-V-1/en-AU.txt)                           | [en-AU](./WT-YT-V-1/en-AU.vtt)                      |
 
 ## Formatting
-* Files for each langauge use the [IETF BCP 47](https://www.w3.org/International/articles/language-tags/) language tag as the filename.
+* Files for each language use the [IETF BCP 47](https://www.w3.org/International/articles/language-tags/) language tag as the filename.
 * ***Title & Description*** are stored in a .txt file with the first line being the title, and all lines below being the description.
 * ***Captions*** are stored in a .vtt (WebVTT) file (advanced subtitle formats such as SubStation Alpha are not supported).
 
 ## FAQ
 
+### Do people watch your videos with captions enabled?
+Yes, as of 2022, 32% of viewers watch with English captions, many from countries where the primary language is not English.
+
 ### Can I contribute corrections here?
-Yes, you can create a pull request with corrections, those changes will be reflected on YouTube when I merge it.
+Yes, you can create a pull request with corrections and I will review them, those changes will be reflected on YouTube when I merge it.
 
 ### Can I submit translations for different languages?
-Yes, you can create a pull request with translations for any ISO recognised language (if it isn't recognised ask in a GitHub issue).
+Yes, you can create a pull request with translations for any ISO 639 recognised language (if it isn't recognised ask in a GitHub issue).
 
 ### Can I submit translations for regional language variations?
-I don't think there's much point in spending the time for different en-AU / en-US versions (currently YouTube doesn't support this anyway), they are close enough. However if you want to contribute a variation; ask in a GitHub issue.
+I don't think there's much point in spending the time for different en-AU / en-US versions (currently YouTube doesn't support this anyway), they are close enough anyway. However, if you want to contribute a variation for something with more significant differences like zh-CN / zh-TW or similar, ask in a GitHub issue.
 
 ### Why create a GitHub repository for captions?
-YouTube removed community captions and a public repo is better for accessibility and tracking changes.
+YouTube removed community captions and a public repository is better for accessibility, tracking changes and moderation.
 
 ### Will those captions appear on LBRY (Odysee)?
 No, those platforms currently don't support captions.
