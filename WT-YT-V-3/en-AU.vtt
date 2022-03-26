@@ -1,0 +1,677 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.040 --> 00:00:06.799
+This is a PMS7002
+laser dust sensor from PLANTOWER
+
+00:00:06.799 --> 00:00:09.440
+I've had it for about
+two years now and it's been running
+
+00:00:09.440 --> 00:00:13.519
+continuously and I've collected a fair
+bit of data as you can see here
+
+00:00:13.519 --> 00:00:17.039
+in particular you can really see the
+fires we had recently
+
+00:00:17.039 --> 00:00:21.199
+at the start of 2020 although on average
+over the past two years
+
+00:00:21.199 --> 00:00:26.320
+it's been exposed to an average of 6.4
+micrograms per cubic meter of dust at
+
+00:00:26.320 --> 00:00:29.679
+PM2.5
+size so hasn't been in the most
+
+00:00:29.679 --> 00:00:33.680
+demanding scenario
+although just looking at it it's pretty
+
+00:00:33.680 --> 00:00:38.399
+dirty so i thought
+we'd take a look inside clean it
+
+00:00:38.399 --> 00:00:41.440
+and show you how it works firstly i'm
+just gonna
+
+00:00:41.440 --> 00:00:45.600
+peel off this plastic protection that's
+on the metalwork
+
+00:00:45.600 --> 00:00:49.440
+the metal cover on both sides are held
+down
+
+00:00:49.440 --> 00:00:54.559
+by these little clips at either edge and
+you can just get a spudger and insert
+
+00:00:54.559 --> 00:00:58.800
+them between the two
+and pry up and bend the metal work and
+
+00:00:58.800 --> 00:01:02.960
+it comes apart
+pretty easy however I do find that this
+
+00:01:02.960 --> 00:01:07.040
+style of spudger
+that's thinner at the end is much easier
+
+00:01:07.040 --> 00:01:10.240
+to get between the two pieces and pry
+them apart
+
+00:01:10.240 --> 00:01:15.119
+and once you've got the metal over all
+of those clips it's just a case of
+
+00:01:15.119 --> 00:01:18.960
+pulling on it
+until it opens up although you got to be
+
+00:01:18.960 --> 00:01:22.720
+careful and make sure you don't pull
+too hard otherwise you'll damage the
+
+00:01:22.720 --> 00:01:27.600
+plastic or bend the metal too much
+okay already this is pretty interesting
+
+00:01:27.600 --> 00:01:31.439
+just with one side off although
+whilst we're at it we'll take the second
+
+00:01:31.439 --> 00:01:35.040
+side off which is now much easier now
+that you don't have to get the spudger
+
+00:01:35.040 --> 00:01:38.640
+between the two pieces just coming from
+the side like this
+
+00:01:38.640 --> 00:01:42.079
+now we have both sides of we can take a
+look inside
+
+00:01:42.079 --> 00:01:45.600
+and the first thing we notice is this
+metal work
+
+00:01:45.600 --> 00:01:49.360
+the case on the back of it is this black
+sticker
+
+00:01:49.360 --> 00:01:53.600
+and that would be to prevent light
+reflections either from the laser
+
+00:01:53.600 --> 00:01:58.399
+or from outside light getting onto the
+sensor and affecting the readings
+
+00:01:58.399 --> 00:02:03.119
+and we can see inside this thing there's
+a nice little centrifugal fan
+
+00:02:03.119 --> 00:02:08.000
+a laser and this little optical cavity
+and we can also see that there's some
+
+00:02:08.000 --> 00:02:12.319
+springs clearly to
+keep the chassis of the device grounded
+
+00:02:12.319 --> 00:02:16.400
+and i'm going to remove them before I
+lose them
+
+00:02:16.400 --> 00:02:21.840
+the other side of the device has the PCB
+and this is actually different to what I
+
+00:02:21.840 --> 00:02:26.640
+was expecting
+I took one of these apart last year
+
+00:02:26.640 --> 00:02:30.319
+and it was a completely different design
+here's a picture
+
+00:02:30.319 --> 00:02:36.560
+and as you can see this one today
+it has a custom PLANTOWER chip
+
+00:02:36.560 --> 00:02:42.879
+whereas the other one has a
+ST chip and some other eight pin
+
+00:02:42.879 --> 00:02:46.160
+SSOP package so I'm not quite sure
+what's going on
+
+00:02:46.160 --> 00:02:50.160
+here is this is this other one of
+counterfeit or something
+
+00:02:50.160 --> 00:02:53.440
+now the reason why I took this other one
+apart
+
+00:02:53.440 --> 00:02:57.760
+last year was because I was a little bit
+dumb and managed to plug it in the wrong
+
+00:02:57.760 --> 00:03:01.599
+way around
+and yeah it doesn't like five volts with
+
+00:03:01.599 --> 00:03:05.280
+the wrong polarity
+turns out I blew something up however
+
+00:03:05.280 --> 00:03:09.040
+looking at the thermal image of it it
+was pretty easy to figure out what chip
+
+00:03:09.040 --> 00:03:12.640
+was getting
+way too hot and it ended up just being
+
+00:03:12.640 --> 00:03:16.640
+this
+little five pin SOT23 device here which
+
+00:03:16.640 --> 00:03:22.500
+i assumed was probably a regulator so I
+replaced it with one of these
+
+00:03:22.500 --> 00:03:24.640
+Micrel 5504 regulators i had laying
+around
+
+00:03:24.640 --> 00:03:29.599
+and it's been working ever since now if
+you're like me you're probably wondering
+
+00:03:29.599 --> 00:03:34.239
+how on earth this thing actually works
+and how it derives a value of micrograms
+
+00:03:34.239 --> 00:03:38.879
+per cubic meter well it's actually
+very similar to how a smoke detector
+
+00:03:38.879 --> 00:03:42.000
+works
+however unlike a smoke detector or
+
+00:03:42.000 --> 00:03:46.720
+cheaper dust sensor
+this thing actually has to distinguish
+
+00:03:46.720 --> 00:03:51.200
+the difference between a small dust
+particle and a large dust particle
+
+00:03:51.200 --> 00:03:54.799
+and to do that we have this whole
+package here
+
+00:03:54.799 --> 00:03:58.879
+this is the block diagram that the
+manufacturer gives us
+
+00:03:58.879 --> 00:04:02.560
+so we're going to look at how this light
+scattering actually works
+
+00:04:02.560 --> 00:04:07.040
+unlike a smoke detector that usually
+uses an infrared led
+
+00:04:07.040 --> 00:04:12.640
+this device has a surprisingly red laser
+and it shines through here shines
+
+00:04:12.640 --> 00:04:17.199
+through these two light baffles
+and then into this light trap at the end
+
+00:04:17.199 --> 00:04:21.440
+and that's just to stop
+any stray reflections from hitting the
+
+00:04:21.440 --> 00:04:25.520
+photo diode at the bottom here
+we also know from the data sheet that
+
+00:04:25.520 --> 00:04:28.000
+this device has a controlled flow rate
+of
+
+00:04:28.000 --> 00:04:34.320
+0.1 liters per minute and that comes
+out here across the sensing region
+
+00:04:34.320 --> 00:04:37.919
+and then out through here through the
+centrifugal fan
+
+00:04:37.919 --> 00:04:41.040
+and that means we have a steady stream
+of air
+
+00:04:41.040 --> 00:04:44.320
+with suspended dust particles coming
+through here and
+
+00:04:44.320 --> 00:04:47.360
+as a dust particle crosses this laser
+beam
+
+00:04:47.360 --> 00:04:51.360
+it will scatter the light onto this
+photodiode and you can then pick that up
+
+00:04:51.360 --> 00:04:54.479
+and
+count exactly how many dust particles
+
+00:04:54.479 --> 00:04:57.520
+have crossed that
+laser beam and then you can infer
+
+00:04:57.520 --> 00:05:02.639
+through the 0.1 liters per minute
+exactly how many dust particles are in
+
+00:05:02.639 --> 00:05:08.479
+one cubic meter of air and of course the
+amount of light scattered by the dust
+
+00:05:08.479 --> 00:05:11.360
+particle
+is proportional to the size of the dust
+
+00:05:11.360 --> 00:05:15.840
+particle as well as its
+reflectance i suspect this is the method
+
+00:05:15.840 --> 00:05:18.720
+the
+this unit uses in order to determine the
+
+00:05:18.720 --> 00:05:21.360
+particle sizes that we see in the data
+output
+
+00:05:21.360 --> 00:05:25.360
+however some other more expensive
+scientific
+
+00:05:25.360 --> 00:05:29.919
+dust measuring devices can also measure
+how long the dust particle
+
+00:05:29.919 --> 00:05:34.160
+spends in the laser beam and at a
+constant flow rate you can then infer
+
+00:05:34.160 --> 00:05:38.080
+the size of the dust particle
+however that's a lot more difficult to
+
+00:05:38.080 --> 00:05:41.120
+measure so i doubt this unit's doing
+that
+
+00:05:41.120 --> 00:05:44.880
+so taking a look at the pcb now and we
+can see
+
+00:05:44.880 --> 00:05:48.639
+after the connector there's a surprising
+amount of passives actually
+
+00:05:48.639 --> 00:05:54.960
+but there's two SOT23 5 pin packages
+we know one of them is going to be a 3.3
+
+00:05:54.960 --> 00:05:59.120
+volt regulator for the
+integrated circuits and powering the
+
+00:05:59.120 --> 00:06:02.400
+laser and everything
+the other one i'm not quite sure what it
+
+00:06:02.400 --> 00:06:05.680
+does it's probably got something to do
+with that fan
+
+00:06:05.680 --> 00:06:09.039
+might be some sort of PWM controller
+because the
+
+00:06:09.039 --> 00:06:13.360
+microcontroller is able to regulate the
+fan speed in order to get that
+
+00:06:13.360 --> 00:06:20.080
+0.1 liters per minute next we also have
+here a surprising amount of passives i'm
+
+00:06:20.080 --> 00:06:23.440
+really not quite sure what they're doing
+full of these passives and honestly i
+
+00:06:23.440 --> 00:06:25.919
+couldn't be bothered to reverse engineer
+this thing
+
+00:06:25.919 --> 00:06:30.400
+especially with the black pcb although
+that is kind of required to minimize
+
+00:06:30.400 --> 00:06:33.919
+light reflections
+considering it's under the photodiode
+
+00:06:33.919 --> 00:06:39.440
+it's got something to do with that
+next we have this rather large [LQFP]
+
+00:06:39.440 --> 00:06:42.560
+package that's been custom labeled PLANTOWER
+
+00:06:42.560 --> 00:06:46.080
+i doubt this is actual custom silicon so
+that would be
+
+00:06:46.080 --> 00:06:50.080
+pretty expensive for something like this
+that requires a
+
+00:06:50.080 --> 00:06:53.599
+reasonable amount of processing power
+however
+
+00:06:53.599 --> 00:06:57.520
+my wizard senses are tingling and
+telling me
+
+00:06:57.520 --> 00:07:01.840
+by the way the package is shaped with
+that location dimple and the way the
+
+00:07:01.840 --> 00:07:06.400
+leads are formed
+this is probably an STM32F part i would
+
+00:07:06.400 --> 00:07:09.039
+bet
+but it could be anything it could be
+
+00:07:09.039 --> 00:07:12.800
+some chinese mcu manufacturer i've never
+heard of
+
+00:07:12.800 --> 00:07:16.639
+over here we have some more passives as
+well as
+
+00:07:16.639 --> 00:07:20.160
+what looks like a three pin SOT23
+transistor
+
+00:07:20.160 --> 00:07:23.919
+this is clearly to drive the laser the
+actual
+
+00:07:23.919 --> 00:07:27.120
+constant current part of the laser
+driving though is
+
+00:07:27.120 --> 00:07:33.199
+on the back of the PCB next to the [TO-18]
+laser and up here interestingly enough
+
+00:07:33.199 --> 00:07:36.960
+we actually have
+a unpopulated device it looks like the
+
+00:07:36.960 --> 00:07:41.520
+footprint for an eight pin
+dfn with an exposed pad my best guess
+
+00:07:41.520 --> 00:07:45.039
+what this would be
+is probably some sort of memory option
+
+00:07:45.039 --> 00:07:48.560
+maybe it's some sort of EEPROM
+that allows it to
+
+00:07:48.560 --> 00:07:54.720
+record locally some historic data
+also here we have four holes through the
+
+00:07:54.720 --> 00:07:57.360
+pcb so that air can flow to the other
+side
+
+00:07:57.360 --> 00:08:00.560
+i'm not quite sure why they've gone with
+four holes and not a slot
+
+00:08:00.560 --> 00:08:04.879
+i suspect it's probably got something to
+do for either a limitation with their
+
+00:08:04.879 --> 00:08:08.400
+pcb design package or maybe they're
+trying to
+
+00:08:08.400 --> 00:08:11.599
+reduce the weight on the drill bit
+drilling a slot
+
+00:08:11.599 --> 00:08:14.879
+now the pcb is held down by these screws
+here
+
+00:08:14.879 --> 00:08:18.319
+but the other side is nothing it's just
+traces
+
+00:08:18.319 --> 00:08:22.639
+now i open this device up to primarily
+clean it so
+
+00:08:22.639 --> 00:08:27.280
+having a look at it now it looks like
+there's a fair amount of dust there's a
+
+00:08:27.280 --> 00:08:30.720
+quite a fair bit on the blades of this
+fan
+
+00:08:30.720 --> 00:08:35.760
+and there's a little bit round here
+and it looks like there might actually
+
+00:08:35.760 --> 00:08:40.640
+be a little bit on the actual
+photodiode now this is why they're
+
+00:08:40.640 --> 00:08:44.720
+so particular about how you orient this
+device
+
+00:08:44.720 --> 00:08:47.839
+when you deploy it because if you deploy
+it the wrong way around
+
+00:08:47.839 --> 00:08:50.959
+the dust can actually settle on the
+photodiode so this
+
+00:08:50.959 --> 00:08:54.000
+has been in the position in which the
+photodiode
+
+00:08:54.000 --> 00:08:58.320
+has been facing downwards so that no
+dust can collect on it hence why it's so
+
+00:08:58.320 --> 00:09:02.160
+clean
+on the other side on the pcb we can see
+
+00:09:02.160 --> 00:09:06.640
+that it's collected
+a fair amount of dust as well i'm not
+
+00:09:06.640 --> 00:09:10.320
+quite sure why they actually have air
+flowing over the pcb
+
+00:09:10.320 --> 00:09:14.000
+to me it seems like a big risk for
+contamination
+
+00:09:14.000 --> 00:09:18.399
+although i suspect it allows them to
+manufacture it a lot cheaper than
+
+00:09:18.399 --> 00:09:21.680
+having to put the pcb in a separate
+compartment
+
+00:09:21.680 --> 00:09:25.120
+now i'm just cleaning this with a normal
+art brush
+
+00:09:25.120 --> 00:09:30.080
+because i don't actually want to get my
+nice esd brushes all dirty with dust
+
+00:09:30.080 --> 00:09:35.440
+but i'm not too worried about this this
+fan here isn't actually held in with any
+
+00:09:35.440 --> 00:09:38.959
+screws it's just to press
+fit so you can just push it out and
+
+00:09:38.959 --> 00:09:42.640
+clean it separately
+and there's actually quite a lot of dust
+
+00:09:42.640 --> 00:09:46.080
+in this fan
+i think there's probably more dust in
+
+00:09:46.080 --> 00:09:51.279
+the fan than anything else which
+i suppose is kind of expected and
+
+00:09:51.279 --> 00:09:55.120
+i wonder if this has actually got
+anything to do with the design of the
+
+00:09:55.120 --> 00:09:59.360
+PMSA003 which actually has the fan
+
+00:09:59.360 --> 00:10:03.279
+on the outside of the device and it's
+holding with two screws and some
+
+00:10:03.279 --> 00:10:09.040
+clips so i wonder if that has anything
+to do with making it easier to clean
+
+00:10:09.040 --> 00:10:12.560
+although one thing to note is the
+plastic on this fan
+
+00:10:12.560 --> 00:10:16.800
+isn't as strong as the metal and i've
+actually managed to damage one in the
+
+00:10:16.800 --> 00:10:19.760
+past so
+that's one thing to be careful of and
+
+00:10:19.760 --> 00:10:22.560
+i'm just going to clean the rest of the
+device here with
+
+00:10:22.560 --> 00:10:29.440
+that same art brush although in order to
+clean that photo diode i'm using
+
+00:10:29.440 --> 00:10:36.000
+a q-tip soaked in 100% isopropyl alcohol
+and with that done we can have a look
+
+00:10:36.000 --> 00:10:39.200
+around and everything looks much cleaner
+now
+
+00:10:39.200 --> 00:10:42.240
+i don't know if this will have any
+effect on the performance
+
+00:10:42.240 --> 00:10:46.720
+but it's good to just know it's not
+horrifically dirty inside now
+
+00:10:46.720 --> 00:10:51.760
+and reassembly is easy enough it's just
+a matter of popping the fan back in
+
+00:10:51.760 --> 00:10:57.519
+putting the connectors back on and
+in order to put these metal shields back
+
+00:10:57.519 --> 00:11:01.600
+on
+you can just bend the sides back in
+
+00:11:01.600 --> 00:11:04.640
+although making sure not to bend them
+too far
+
+00:11:04.640 --> 00:11:08.160
+and then just pushing them back on they
+clip into place
+
+00:11:08.160 --> 00:11:11.200
+i'm not sure how many times you can do
+this before
+
+00:11:11.200 --> 00:11:16.000
+the metal starts to fatigue but i
+imagine if you're doing this every like
+
+00:11:16.000 --> 00:11:19.519
+two years it's
+not going to be a problem and so that's
+
+00:11:19.519 --> 00:11:29.839
+what's inside one of these and how to
+clean it so thanks for watching
+
+00:11:29.839 --> 00:11:31.920
+you
+

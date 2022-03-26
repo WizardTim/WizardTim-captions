@@ -1,0 +1,21 @@
+SMT Thermal Design Mistakes
+
+Explaining some basic thermal design calculations for two common through-hole and surface mount packages and testing a misconception about the importance of uninterrupted copper area heatsinks for SMT devices and exhibiting where I have made this mistake in the past so you don’t have to.
+
+Timestamps
+00:00 - THT Overview
+02:00 - SOT-223 Overview
+03:27 - SOT-223 Testing
+05:17 - 3528 PLCC Overview
+07:00 - 3528 PLCC Testing
+08:12 - Outro
+
+LED Panel GitHub: https://github.com/WizardTim/AR0004-R1
+
+Components Shown
+LD1117: https://www.digikey.com.au/products/en?keywords=497-1492-5-ND
+AMS1117: https://lcsc.com/product-detail/Dropout-Regulators-LDO_Advanced-Monolithic-Systems-AMS1117-3-3_C6186.html 
+LEDs: https://www.digikey.com.au/products/en?keywords=EAHC2835WD6
+
+
+REF: WT-YT-V-4

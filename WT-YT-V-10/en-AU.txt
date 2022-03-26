@@ -1,0 +1,15 @@
+OSRAM 5W LED Bulb Repair & Failure Analysis
+
+Teardown and repair of a modern cost optimised consumer grade 'frosted candle' style LED bulb from OSRAM and in-depth analysis of the failed component. This light is advertised as 5.5 W 470 lm with a lifetime of "up to" 15,000 hours and costs at the time of writing AU$4.90. It is estimated this light had approximately 2,000 - 4,000 operating hours before failing.
+
+00:00 – Intro
+00:30 – First Look
+01:24 – Testing LEDs
+02:08 – Removing PCBs
+02:57 – Testing PSU
+05:40 – Repair
+06:50 – Component Analysis Preparation
+10:35 – Component Failure Analysis
+11:45 – Outro
+
+REF: WT-YT-V-10

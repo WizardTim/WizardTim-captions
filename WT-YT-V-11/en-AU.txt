@@ -1,0 +1,23 @@
+20 kV Diode Teardown
+
+Teardown of a 20 kV 5 mA high voltage diode (2CL77) in a DO-312 package manufactured by GETAI Electronic Devices Co. Ltd. (广州市格泰电子器件有限) under the brand HGVT Semiconductor.
+
+
+Since posting this video I measured the diode with a PSU at some currents:
+15.5 V @ 1 mA (0.70 V/die) 
+21.2 V @ 5 mA (0.96 V/die) 
+24.8 V @ 10 mA (1.12 V/die)
+
+
+
+
+00:00 – Intro 
+01:20 – The 20 kV Diode
+02:37 – Cross Section Preparation
+02:55 – Cross Sectioning
+04:21 – Cross Section Analysis
+05:46 – Outro
+
+
+
+REF: WT-YT-V-11

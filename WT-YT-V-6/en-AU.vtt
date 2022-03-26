@@ -1,0 +1,313 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.320 --> 00:00:04.400
+In the past I've tried to repair
+low-cost consumer electronics that often
+
+00:00:04.400 --> 00:00:07.759
+use
+phenolic resin-bonded PCBs as well as
+
+00:00:07.759 --> 00:00:12.320
+chip-on-board style ICs however the first two times that i
+
+00:00:12.320 --> 00:00:15.920
+attempted this
+the devices unfortunately did not make
+
+00:00:15.920 --> 00:00:20.000
+it through their surgery
+however in both of these situations all
+
+00:00:20.000 --> 00:00:22.640
+that i was doing was just using hot air
+to
+
+00:00:22.640 --> 00:00:25.840
+replace some surface mount resistors and
+capacitors
+
+00:00:25.840 --> 00:00:28.960
+in somewhat closer vicinity to the chip-on-board
+
+00:00:28.960 --> 00:00:32.320
+but despite this the chip-on-board
+started to
+
+00:00:32.320 --> 00:00:36.399
+fizz and crackle and pop and then uh
+parts of the epoxy would uh
+
+00:00:36.399 --> 00:00:40.399
+go missing and the device would stop
+working so i have here
+
+00:00:40.399 --> 00:00:44.399
+a PCB that we shall be sacrificing for
+science and
+
+00:00:44.399 --> 00:00:51.520
+this PCB is probably from about 2005
+this is from a children's toy where you
+
+00:00:51.520 --> 00:00:55.280
+press the buttons on the keypad and it
+will make a bunch of sounds
+
+00:00:55.280 --> 00:00:59.520
+but the thing that's important to us is
+that it uses a chip-on-board IC
+
+00:00:59.520 --> 00:01:02.719
+which is under this black blob here and
+on the back
+
+00:01:02.720 --> 00:01:07.740
+we can see that it's brown which is a
+telltale sign that this is a phenolic PCB.
+
+00:01:07.740 --> 00:01:10.479
+So i've got the hot air gun set at 260 °C
+
+00:01:10.479 --> 00:01:13.520
+which is the sort of
+temperature you want to use for
+
+00:01:13.520 --> 00:01:16.880
+lead-free soldering
+and i've got it pointed at that blob so
+
+00:01:16.880 --> 00:01:21.600
+hopefully we can see some of that snap
+crackle pop action
+
+00:01:22.300 --> 00:01:23.600
+[popping sound]
+
+00:01:24.320 --> 00:01:28.320
+yeah and that's the other thing not only
+do these chip on boards not lack the
+
+00:01:28.320 --> 00:01:34.000
+heat but these are phenolic PCBs the
+lamination is nowhere near as good as
+
+00:01:34.000 --> 00:01:36.140
+woven fiberglass PCBs
+
+00:01:36.140 --> 00:01:40.080
+[cracking &amp; popping sounds]
+
+00:01:42.140 --> 00:01:49.119
+and as you can see here yeah it's developed a bit of a bump
+where it's delaminated, so the lesson
+
+00:01:49.119 --> 00:01:54.880
+here is that if you have to rework a
+resin bonded PCB or do anything near
+
+00:01:54.880 --> 00:02:00.320
+a chip on board device it's a good idea
+to bake the PCB first to remove any
+
+00:02:00.320 --> 00:02:03.200
+moisture
+as well as try to use a lower
+
+00:02:03.200 --> 00:02:06.640
+temperature
+however the best course of action is to
+
+00:02:06.640 --> 00:02:11.680
+just use a soldering iron
+and if you have to desolder a multi-pin
+
+00:02:11.680 --> 00:02:15.360
+SMT part instead of using hot air you
+can just cut the leads
+
+00:02:15.360 --> 00:02:19.200
+and take the part off that way and then
+re-solder it by hand with a soldering
+
+00:02:19.200 --> 00:02:22.080
+iron
+now whilst i have this i want to
+
+00:02:22.080 --> 00:02:26.720
+actually take a dig
+at this bubble here just to see
+
+00:02:26.720 --> 00:02:30.400
+what sort of damage it's done to the thing
+
+00:02:39.040 --> 00:02:42.319
+and it turns out this is actually a
+pretty good way of getting the blob off
+
+00:02:42.319 --> 00:02:45.360
+you can just
+get your tweezers under it and rip it
+
+00:02:45.360 --> 00:02:49.599
+off and then you can
+put the epoxy blob in some solvent for a
+
+00:02:49.600 --> 00:02:54.800
+while
+and then you can get some die shots like this
+
+00:03:05.560 --> 00:03:07.920
+but yeah it looks like uh the first
+
+00:03:07.920 --> 00:03:12.239
+layer of this phenolic board has
+completely delaminated from all of the
+
+00:03:12.239 --> 00:03:17.200
+other layers and it's just made this uh
+bubble here and you can really see that
+
+00:03:17.200 --> 00:03:21.200
+on the other side
+of the pcb so let's do this again and
+
+00:03:21.200 --> 00:03:24.640
+see if we can delaminate all of the
+layers in this pcb
+
+00:03:24.640 --> 00:03:28.319
+and of course i'll get that microphone
+in nice and close for you so that you
+
+00:03:28.320 --> 00:03:33.840
+can hear that nice horrific snap crackle
+pop ASMR
+
+00:03:35.320 --> 00:04:36.980
+[crackling &amp; popping sounds]
+
+00:04:39.440 --> 00:04:44.639
+so this shot's at 10 times speed and the
+hot air gun is set to 300 ° C
+
+00:04:44.639 --> 00:04:49.040
+and you can really see the
+phenolic PCB discolor
+
+00:04:49.040 --> 00:04:53.120
+this is pretty much why you don't want
+to use a phenolic PCB for anything apart
+
+00:04:53.120 --> 00:04:56.560
+from the
+lowest cost consumer garbage because
+
+00:04:56.560 --> 00:05:00.160
+fiberglass FR-4
+is pretty much so much better in every
+
+00:05:00.160 --> 00:05:04.500
+single way apart from cost
+and even that is pretty marginal
+
+00:05:04.500 --> 00:05:08.240
+So here I'm just gonna
+break the PCB in half so we can see all
+
+00:05:08.240 --> 00:05:10.960
+of those
+layers that have hopefully delaminated
+
+00:05:10.960 --> 00:05:13.840
+so yeah it looks like we've delaminated
+all of the layers
+
+00:05:13.840 --> 00:05:17.280
+it looks like it's made up of three
+different distinct
+
+00:05:17.280 --> 00:05:20.880
+fiber layers that have been bonded
+together
+
+00:05:20.880 --> 00:05:24.800
+interestingly the delamination here is
+actually pretty extreme there's
+
+00:05:24.800 --> 00:05:28.479
+a surprising amount of space in between
+these layers that have
+
+00:05:28.479 --> 00:05:32.240
+that's been made by the gas so i presume
+either
+
+00:05:32.240 --> 00:05:36.960
+quite a lot of moisture has been in this
+PCB that's vaporized and created quite
+
+00:05:36.960 --> 00:05:40.639
+high pressures
+either that or maybe the adhesive that
+
+00:05:40.640 --> 00:05:44.400
+bonds these layers together
+maybe it's decomposing or something
+
+00:05:44.400 --> 00:05:47.460
+which is adding to this
+
+00:05:52.280 --> 00:05:57.840
+here's part of the PCB that hasn't delaminated and as you can see
+the layers are pretty much
+
+00:05:57.840 --> 00:06:01.360
+indistinguishable from each other
+and then we've got this bit here where
+
+00:06:01.360 --> 00:06:03.919
+the layers have just completely splayed
+apart
+
+00:06:03.919 --> 00:06:08.000
+and the three distinct layers are very
+obvious you can also see the very
+
+00:06:08.000 --> 00:06:13.680
+thin piece of solder resist on the top
+as well as the very thin copper trace
+
+00:06:13.680 --> 00:06:16.720
+so yeah i hope this video has taught you
+something about
+
+00:06:16.720 --> 00:06:20.960
+what you shouldn't do with phenolic PCBs
+and chip on board devices
+
+00:06:20.960 --> 00:06:24.319
+so hopefully you don't have to go
+through the two first time failed
+
+00:06:24.319 --> 00:06:28.479
+attempts at this
+now i was also going to talk about the
+
+00:06:28.479 --> 00:06:33.280
+moisture sensitivity level of
+normal SMT components as well in this
+
+00:06:33.280 --> 00:06:35.600
+video but i think it's gotten a little
+long
+
+00:06:35.600 --> 00:06:38.800
+so i'll leave that to a video in the
+future
+
+00:06:38.800 --> 00:06:46.800
+but as always thanks for watching
+

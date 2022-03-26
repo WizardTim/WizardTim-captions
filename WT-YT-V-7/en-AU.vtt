@@ -1,0 +1,364 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.640 --> 00:00:08.640
+So in my last video we had a look at phenolic PCBs&nbsp;
+and how bad they are at resisting moisture and&nbsp;&nbsp;
+
+00:00:08.640 --> 00:00:14.160
+high temperatures when reflowing, if you haven't&nbsp;
+seen that video I'll leave it in a card here.
+
+00:00:15.040 --> 00:00:21.280
+But what about FR-4 PCBs that we're probably&nbsp;
+more familiar with if you've ordered them&nbsp;&nbsp;
+
+00:00:21.280 --> 00:00:26.400
+from the various online manufacturers you&nbsp;
+might have received them packed in this&nbsp;&nbsp;
+
+00:00:27.280 --> 00:00:32.400
+sealed packaging with a silica gel so this would&nbsp;
+lead you to believe that these are actually&nbsp;&nbsp;
+
+00:00:32.400 --> 00:00:38.720
+quite moisture sensitive, but in that video I did&nbsp;
+say that FR-4 PCBs are pretty much better in every&nbsp;&nbsp;
+
+00:00:38.720 --> 00:00:46.867
+single way both in temperature resistance and&nbsp;
+moisture sensitivity so I thought I'd make this&nbsp;video and put that to the test. 
+
+00:00:46.867 --> 00:00:52.080
+So here I have a&nbsp;
+FR-4 PCB from a online PCB manufacturer and we're&nbsp;&nbsp;
+
+00:00:52.080 --> 00:00:58.400
+going to be putting it to the test at 300 °C&nbsp;
+and see how it holds up against the phenolic PCB.
+
+00:01:07.840 --> 00:01:12.880
+So having a look at the aftermath&nbsp;
+it's pretty difficult to see but&nbsp;&nbsp;
+
+00:01:12.880 --> 00:01:18.160
+there is some slight discoloration, you&nbsp;
+can see some of the pads are oxidized.
+
+00:01:20.880 --> 00:01:25.000
+To make it easier to see I've&nbsp;
+upped the contrast in this frame&nbsp;,
+
+00:01:25.040 --> 00:01:30.400
+so you can really see the dark area is the&nbsp;
+area that's been discolored by the high&nbsp;temperature,
+
+00:01:30.400 --> 00:01:35.000
+but it's it's only very minor in&nbsp;
+comparison to the phenolic PCB. 
+
+00:01:35.000 --> 00:01:42.560
+So seeing as 300 °C didn't do it let's try 500 °C and&nbsp;
+that's the highest my little heat gun can go.
+
+00:01:45.360 --> 00:01:49.360
+And as we see it pretty&nbsp;
+quickly starts to degrade
+
+00:01:49.360 --> 00:01:54.080
+and discolor, I'm not quite sure&nbsp;
+what this would be referred to as.
+
+00:01:56.400 --> 00:02:01.520
+So jabbing tweezers into it we can see it's&nbsp;
+pretty much lost all it's structural integrity and&nbsp;&nbsp;
+
+00:02:01.520 --> 00:02:08.160
+we can see a lot of the fibers in the fiberglass&nbsp;
+are just pulling apart and these tracks aren't&nbsp;&nbsp;
+
+00:02:08.160 --> 00:02:13.840
+held on anymore at all so pretty much if you're&nbsp;
+if your PCB gets to 500 °C you're screwed&nbsp;&nbsp;
+
+00:02:13.840 --> 00:02:19.120
+but at that point you've got bigger problems. So&nbsp;
+looking at it we can actually see the actual&nbsp;&nbsp;
+
+00:02:19.120 --> 00:02:26.560
+fiberglass weave under all of this burnt epoxy&nbsp;
+and here we have the individual fiberglass strands&nbsp;&nbsp;
+
+00:02:27.120 --> 00:02:33.440
+interestingly the epoxy is completely gone you&nbsp;
+can see the individual strands there's no epoxy&nbsp;&nbsp;
+
+00:02:33.440 --> 00:02:37.138
+holding it together anymore it's all burnt away.
+
+00:02:37.138 --> 00:02:41.665
+So&nbsp;we had a look at both 300 °C and 500 °C&nbsp;
+
+00:02:41.665 --> 00:02:48.800
+and in both cases there wasn't any damage due&nbsp;
+to moisture like we saw on the phenolic PCB&nbsp;&nbsp;
+
+00:02:48.800 --> 00:02:55.840
+so here I have soaked this FR-4 PCB in water so we&nbsp;
+should be able to get some pretty good action here&nbsp;&nbsp;
+
+00:02:56.560 --> 00:03:00.960
+now looking at the side of the PCB you can&nbsp;
+see just how far the water has wicked up&nbsp;&nbsp;
+
+00:03:01.600 --> 00:03:08.240
+now this PCB has been in here for about&nbsp;
+a week so it's pretty much soaked full of water.
+
+00:03:09.440 --> 00:03:12.880
+So here I've got it set to&nbsp;
+350 °C just so that&nbsp;&nbsp;
+
+00:03:12.880 --> 00:03:17.840
+we can definitely see some action&nbsp;
+from this PCB and if we look at it.
+
+00:03:30.080 --> 00:03:36.240
+It's all going nice and then suddenly it oh yeah&nbsp;
+it just completely delaminates and forms this&nbsp;&nbsp;
+
+00:03:36.240 --> 00:03:42.905
+massive bubble and we can see that the epoxy&nbsp;
+is starting to burn as well because we're at&nbsp;such a high temperature. 
+
+00:03:43.764 --> 00:03:47.680
+Now trying it again&nbsp;
+on the other side but this time with a normal&nbsp;&nbsp;
+
+00:03:47.680 --> 00:03:54.080
+temperature of 260 °C we can see&nbsp;
+that it's resisting it a fair bit more
+
+00:03:59.600 --> 00:04:04.560
+but here we have exactly the same problem of&nbsp;
+the layers delaminating and it forming a nice...&nbsp;&nbsp;
+
+00:04:05.120 --> 00:04:09.520
+well a terrible bubble in this case we&nbsp;
+definitely never want to see this but&nbsp;&nbsp;
+
+00:04:09.520 --> 00:04:14.080
+this is exactly what I want to see because it&nbsp;
+proves the point that they are moisture sensitive&nbsp;&nbsp;
+
+00:04:14.080 --> 00:04:20.560
+but nowhere near as bad as phenolic PCBs and if&nbsp;
+I take my tweezers just to show you that&nbsp;&nbsp;
+
+00:04:20.560 --> 00:04:27.840
+this bubble is certainly pressurized with&nbsp;
+some sort of gas presumably water vapor.
+
+00:04:32.400 --> 00:04:38.720
+So I've let it cool down now and you can see the&nbsp;
+outline of where that bubble was and the where the&nbsp;&nbsp;
+
+00:04:38.720 --> 00:04:46.216
+layers have delaminated so yeah all this
+area here is where it stopped interestingly the&nbsp;vias,
+
+00:04:46.216 --> 00:04:50.960
+interestingly here the vias appear&nbsp;
+to have actually stopped the delamination&nbsp;&nbsp;
+
+00:04:51.760 --> 00:04:59.552
+which is rather interesting it might be a good&nbsp;
+little trick to use vias to hold the layers&nbsp;together better 
+
+00:04:59.552 --> 00:05:07.601
+I know that you can often use&nbsp;
+vias to ensure pads adhere better to the PCB so&nbsp;they don't fall off.
+
+00:05:07.601 --> 00:05:11.840
+So I'm very interested to&nbsp;
+see just what's underneath this bubble so&nbsp;&nbsp;
+
+00:05:11.840 --> 00:05:16.800
+we're going to do a destructive teardown and&nbsp;
+have a look at the individual layers so I'm&nbsp;&nbsp;
+
+00:05:16.800 --> 00:05:22.320
+just going to cut it here with this X-ACTO knife,&nbsp;
+be careful with an X-ACTO knife if you do this&nbsp;&nbsp;
+
+00:05:23.600 --> 00:05:29.200
+and now that we've cut the top copper layer&nbsp;
+we can just pry it up just like that and we&nbsp;&nbsp;
+
+00:05:29.200 --> 00:05:37.840
+can see that we've just took the top copper&nbsp;
+layer off it's delaminated from the fiberglass.
+
+00:05:48.960 --> 00:05:55.120
+Interestingly we can see the pattern of the&nbsp;
+epoxy on the copper so it looks like when we&nbsp;&nbsp;
+
+00:05:55.120 --> 00:06:00.960
+peeled up the copper actually took the epoxy with&nbsp;
+it although on the edge it didn't and this layer&nbsp;&nbsp;
+
+00:06:00.960 --> 00:06:07.600
+of fiberglass is still quite loose so I'm going to&nbsp;
+cut away further at this to see if we can expose&nbsp;&nbsp;
+
+00:06:07.600 --> 00:06:13.360
+the lower layers so cutting it with that X-ACTO&nbsp;
+knife again and see here I can actually put the&nbsp;&nbsp;
+
+00:06:13.360 --> 00:06:19.840
+X-ACTO knife in underneath that fiberglass layer&nbsp;
+so again this layer here is completely delaminated&nbsp;&nbsp;
+
+00:06:20.480 --> 00:06:26.960
+and yeah I can just pull this up with some&nbsp;
+tweezers it's rather rigid but yeah it's&nbsp;&nbsp;
+
+00:06:26.960 --> 00:06:32.480
+done a fair bit of damage to this although&nbsp;
+interestingly this tab hasn't delaminated as&nbsp;&nbsp;
+
+00:06:32.480 --> 00:06:38.560
+much as the other one so I'm not sure if that&nbsp;
+top layer delaminating was just a result of me
+
+00:06:40.640 --> 00:06:45.267
+so yeah just jamming the tweezers in and&nbsp;
+pulling it up works pretty good
+
+00:06:45.267 --> 00:06:52.240
+Now just to&nbsp;prove to you that this isn't just a result of&nbsp;
+cutting a normal FR-4 PCB that if you cut it it&nbsp;&nbsp;
+
+00:06:52.240 --> 00:06:56.720
+falls apart like this so I'll just cut it over&nbsp;
+here where I didn't apply the high temperature&nbsp;&nbsp;
+
+00:06:57.280 --> 00:07:04.320
+and as you can see if I cut it, it doesn't&nbsp;
+fall apart at all it's held together quite well&nbsp;&nbsp;
+
+00:07:05.040 --> 00:07:10.240
+yeah I try to get the knife in here but it's just,&nbsp;
+it's not going to come up there's no delamination&nbsp;&nbsp;
+
+00:07:10.240 --> 00:07:13.641
+it's all held together quite well without epoxy.
+
+00:07:13.641 --> 00:07:23.920
+So taking a closer look at the macro lens we can&nbsp;really see that the copper has pulled up the epoxy&nbsp;with it, so I'm not sure if this was part of the&nbsp;&nbsp;
+
+00:07:24.480 --> 00:07:33.520
+delamination from the gases because the other&nbsp;
+flaps appeared to still be adhered quite well but&nbsp;&nbsp;
+
+00:07:33.520 --> 00:07:40.800
+in the case of all four flaps the first fiberglass&nbsp;
+layer is definitely completely delaminated from&nbsp;&nbsp;
+
+00:07:40.800 --> 00:07:45.840
+the second fiberglass layer, here you can see&nbsp;
+the difference between where the epoxy has&nbsp;&nbsp;
+
+00:07:45.840 --> 00:07:50.800
+been pulled up by the copper and where it stops&nbsp;
+and the epoxy is still adhered to the fiberglass.
+
+00:07:55.520 --> 00:08:02.880
+So I've now pulled back the top copper as well&nbsp;
+as the first fiberglass layer a lot more and&nbsp;&nbsp;
+
+00:08:02.880 --> 00:08:09.600
+we can see actually that the second fiberglass&nbsp;
+layer does actually have an air bubble behind it&nbsp;&nbsp;
+
+00:08:09.600 --> 00:08:15.840
+we can see here the extremity of the bubble&nbsp;
+here and we can see that this area here is&nbsp;&nbsp;
+
+00:08:16.800 --> 00:08:23.440
+is still adhered together and hasn't delaminated&nbsp;
+so i suspect that these lower layers were probably&nbsp;&nbsp;
+
+00:08:23.440 --> 00:08:28.720
+delaminated by the high temperature on the&nbsp;
+other side. In hindsight i probably should&nbsp;&nbsp;
+
+00:08:28.720 --> 00:08:34.720
+have just gotten another PCB and done a second&nbsp;
+test with that without doing it on the other side&nbsp;&nbsp;
+
+00:08:35.360 --> 00:08:41.152
+but I couldn't be bothered to put another one&nbsp;
+of these in a glass of water for a week and let&nbsp;it do its thing.
+
+00:08:41.152 --> 00:08:45.680
+So here we can really see that&nbsp;
+this first layer is completely delaminated and&nbsp;&nbsp;
+
+00:08:45.680 --> 00:08:52.080
+you can really see that there's quite a definite&nbsp;
+position of where it's delaminated and you can&nbsp;&nbsp;
+
+00:08:52.080 --> 00:08:58.320
+see that this top layer is actually a smaller&nbsp;
+area than the second layer's delamination so&nbsp;&nbsp;
+
+00:08:59.280 --> 00:09:05.280
+yeah I'm pretty sure that second layer is because&nbsp;
+of the damage from the first test and we can see&nbsp;&nbsp;
+
+00:09:05.280 --> 00:09:10.480
+here that the surface is very smooth for&nbsp;
+where the copper has been pulled off the&nbsp;&nbsp;
+
+00:09:10.480 --> 00:09:19.120
+epoxy that covers the fiberglass and here's just a&nbsp;
+close-up image of that and here's another close-up&nbsp;&nbsp;
+
+00:09:19.120 --> 00:09:25.200
+you can see here to the left the epoxy still has&nbsp;
+the texture from the other layer of fiberglass&nbsp;&nbsp;
+
+00:09:25.200 --> 00:09:32.400
+in it and this bit here still has the top copper&nbsp;
+and the first layer of fiberglass but where I've&nbsp;&nbsp;
+
+00:09:32.400 --> 00:09:39.040
+ripped it you can see that every second strand 
+is sticking out which is rather interesting way&nbsp;&nbsp;
+
+00:09:39.040 --> 00:09:46.745
+how it tore and here's another close-up of&nbsp;
+where I've ripped off the top fiberglass layer.
+
+00:09:50.233 --> 00:09:54.880
+These are pieces of fiberglass unlike&nbsp;
+the first high temperature test where the&nbsp;&nbsp;
+
+00:09:54.880 --> 00:10:00.160
+epoxy was actually burnt and was degraded&nbsp;
+these still have the epoxy in them so&nbsp;&nbsp;
+
+00:10:00.160 --> 00:10:07.040
+if I poke and prod them with an implement you&nbsp;
+can see that they're still completely rigid&nbsp;&nbsp;
+
+00:10:07.040 --> 00:10:13.336
+unlike before where you could see the individual&nbsp;
+fibers that just splayed apart.
+
+00:10:13.336 --> 00:10:24.816
+So that's it&nbsp;for this video so I hope you've learned&nbsp;
+something and as always thanks for watching
+

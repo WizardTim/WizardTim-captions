@@ -1,0 +1,6 @@
+Why You Shouldn't Hot Air COBs or Phenolic PCBs
+
+Using hot air to rework components near Chip-On-Board (COB) ICs or any component on a Phenolic PCB can have undesired consequences that can destroy an assembly with almost no warning, I did this twice before realising what I was doing wrong, in this video I demonstrate why you should avoid using hot air on those low-cost assemblies and ways to mitigate the risk.
+
+
+REF: WT-YT-V-6

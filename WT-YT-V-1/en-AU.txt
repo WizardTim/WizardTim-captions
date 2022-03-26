@@ -1,0 +1,8 @@
+PSU 3/4" Binding Post to USB A Adapter Assembly
+
+GitHub: https://github.com/WizardTim/AR0001-R1
+
+USB Port: https://www.digikey.com/products/en?keywords=ue27AE54100-ND
+
+
+REF: WT-YT-V-1

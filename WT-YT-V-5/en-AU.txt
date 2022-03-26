@@ -1,0 +1,23 @@
+ZFS Disk Failure and Recovery
+
+My journey over the past few weeks dealing with and attempting to recover a ‘failed’ hard drive in my 3-year-old ZFS pool using 4x ST3000DM008 7,200 rpm mechanical drives in raidz1.
+
+00:00 – Dramatization
+00:22 – Background
+02:02 – The First Signs
+03:45 – The Fall
+05:45 – The Redemption
+08:35 – The Resurgence
+
+Special thanks to Mark Furneaux for his videos about ZFS & pfSense which convinced me 4 years ago to abandon hardware RAID on Windows Server 2012 and go with ZFS on Ubuntu (a decision I'm still very happy with).
+https://www.youtube.com/user/TheUbuntuGuy
+
+
+The dramatization parody short in this video contains scenes from the 1979 feature film 'The China Syndrome' © Columbia Pictures. 
+Those scenes have undergone a significant transformation using computer graphics to convey a parody which has been done in good faith as ‘fair use’ in accordance with section 107 of the U.S. Copyright Act 1976.
+https://play.google.com/store/movies/details?id=vCER5ccRr_g
+(Google Play store link may be blocked in your region)
+https://en.wikipedia.org/wiki/The_China_Syndrome
+
+
+REF: WT-YT-V-5

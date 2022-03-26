@@ -1,0 +1,202 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:08.790
+Hi, I quite often have devices like this that&nbsp;
+use a standard USB connector however, I quite&nbsp;&nbsp;
+
+00:00:08.790 --> 00:00:13.350
+often have to either measure the power consumed&nbsp;
+by this device or measure its performance with&nbsp;&nbsp;
+
+00:00:13.350 --> 00:00:19.890
+a variety of input voltages or just power it&nbsp;
+with a clean lab supply like this, however as you&nbsp;&nbsp;
+
+00:00:19.890 --> 00:00:26.760
+know it may have noticed a normal USB connector&nbsp;
+doesn't exactly fit in one of these so I've&nbsp;&nbsp;
+
+00:00:26.760 --> 00:00:31.830
+designed this little thing here which is&nbsp;
+quite simple as just a vertical USB connector a&nbsp;&nbsp;
+
+00:00:31.830 --> 00:00:41.790
+PCB and some banana jacks and you just plug it in&nbsp;
+like this, it's at the standard one inch spacing
+
+00:00:46.300 --> 00:00:49.360
+and away you go
+
+00:00:49.360 --> 00:01:03.520
+Now the PCB files for this will be in the&nbsp;
+description so you can order them from a&nbsp;&nbsp;
+
+00:01:03.520 --> 00:01:12.310
+service like PCBWay I ordered 10 but they gave&nbsp;
+me a lot more, you can get the banana jacks I&nbsp;&nbsp;
+
+00:01:12.310 --> 00:01:20.950
+got them from eBay I'm sure you can get them&nbsp;
+from element14 or Digi-Key or whatever as well&nbsp;&nbsp;
+
+00:01:20.950 --> 00:01:28.900
+as the vertical USB connectors and that is the&nbsp;
+part number if you're interested from Digi-Key&nbsp;&nbsp;
+
+00:01:28.900 --> 00:01:40.240
+now this device is pretty simple it's not many&nbsp;
+parts at all however in this video I will show&nbsp;&nbsp;
+
+00:01:40.240 --> 00:01:46.870
+you how to make it just in case. Now a set&nbsp;
+of helping hands is extremely recommended&nbsp;&nbsp;
+
+00:01:46.870 --> 00:01:52.570
+otherwise you're just going to burn your hands&nbsp;
+something else that's also recommended is some&nbsp;&nbsp;
+
+00:01:52.570 --> 00:01:57.910
+leaded solder because these are some rather&nbsp;
+large joints so the lower the melting point&nbsp;&nbsp;
+
+00:01:57.910 --> 00:02:08.530
+of the solder the better now I would recommend&nbsp;
+the soldering the banana jacks before the USB&nbsp;&nbsp;
+
+00:02:08.530 --> 00:02:14.740
+port because the USB port has plastic in it&nbsp;
+and you really don't want to melt that now&nbsp;&nbsp;
+
+00:02:14.740 --> 00:02:25.300
+before then you make the soldered joint you&nbsp;
+really want to make sure that the banana jack&nbsp;&nbsp;
+
+00:02:25.300 --> 00:02:32.260
+is as flush to the PCB as you can get it&nbsp;
+and you want your helping hands to hold it
+
+00:02:36.440 --> 00:02:39.890
+Now if you have a hot air gun it's a good idea&nbsp;&nbsp;
+
+00:02:39.890 --> 00:02:44.510
+just to warm up the joint so that&nbsp;
+it makes soldering a lot easier.
+
+00:02:50.650 --> 00:02:55.720
+You don't have to get it as hot as if you were say&nbsp;
+reflowing surface-mount stuff you just&nbsp;&nbsp;
+
+00:02:55.720 --> 00:03:05.440
+have to get it reasonably warm. Now I'll make&nbsp;
+sure your soul during tip is nice and clean
+
+00:03:22.750 --> 00:03:28.330
+and make a good connection between&nbsp;
+both the PCB and the banana jack
+
+00:04:39.750 --> 00:04:48.390
+now this is the type of solder joint you're&nbsp;
+looking for, one that has a nice smooth fillet&nbsp;&nbsp;
+
+00:04:48.390 --> 00:04:55.440
+just like that however you want to get it&nbsp;
+nice and straight which this certainly isn't&nbsp;&nbsp;
+
+00:04:55.440 --> 00:05:05.580
+so you can come in with a wet tissue&nbsp;
+just so that you don't burn yourself
+
+00:05:22.570 --> 00:05:24.010
+Little more solder might help
+
+00:05:58.040 --> 00:06:01.880
+and just push it to make sure it's nice and level
+
+00:06:07.910 --> 00:06:19.880
+and that looks pretty good and don't&nbsp;
+forget just to put a little bit of&nbsp;&nbsp;
+
+00:06:19.880 --> 00:06:24.302
+solder on your tip just to save it&nbsp;
+
+00:06:32.827 --> 00:06:37.220
+so that's what you're looking for
+
+00:07:49.710 --> 00:07:54.240
+now you want to make sure to get them in&nbsp;&nbsp;
+
+00:07:54.240 --> 00:07:57.660
+right way round and make the&nbsp;
+mistake I did the first time
+
+00:08:08.470 --> 00:08:10.600
+bring you in a bit closer this time
+
+00:09:15.684 --> 00:09:24.114
+and just make sure this one's nice and level
+
+00:09:53.068 --> 00:10:03.510
+now just make sure that they're parallel and&nbsp;
+that they're also inline, yeah could be a&nbsp;&nbsp;
+
+00:10:03.510 --> 00:10:08.580
+bit better but that's probably good enough&nbsp;
+they will flex ever so slightly when you put&nbsp;&nbsp;
+
+00:10:08.580 --> 00:10:17.550
+them into the plugs now for the USB connector&nbsp;
+there's a simple case of clicking it in make&nbsp;&nbsp;
+
+00:10:17.550 --> 00:10:22.410
+sure it's the right way around there I know&nbsp;
+they're a good click and that will hold in&nbsp;&nbsp;
+
+00:10:22.410 --> 00:10:27.960
+pretty well you want to make sure it's nice&nbsp;
+and straight and then you can solder it in
+
+00:11:34.590 --> 00:11:38.940
+I can assure you this is much easier&nbsp;
+when you've got a camera in the way
+
+00:12:16.390 --> 00:12:18.940
+now you don't have to solder the center pins&nbsp;&nbsp;
+
+00:12:18.940 --> 00:12:21.820
+but it's just a good idea to&nbsp;
+hold the part in a bit better
+
+00:12:38.800 --> 00:12:53.770
+that looks okay and now it's just a case of&nbsp;
+letting it cool down because it's pretty hot&nbsp;&nbsp;
+
+00:12:53.770 --> 00:13:00.610
+right now now once it's all cooled down and you've&nbsp;
+washed the leaded solder off your hand it's just&nbsp;&nbsp;
+
+00:13:00.610 --> 00:13:06.190
+a matter of checking to make sure everything's&nbsp;
+done properly that it looks good this is on the&nbsp;&nbsp;
+
+00:13:06.190 --> 00:13:18.460
+right side these are on the right side and&nbsp;
+they look nice and straight so now it's just&nbsp;&nbsp;
+
+00:13:18.460 --> 00:13:26.620
+a case of plugging it in and seeing if it works&nbsp;
+and remember a positive to positive might be a&nbsp;&nbsp;
+
+00:13:26.620 --> 00:13:33.280
+bit hard to plug it in the first time there&nbsp;
+because the the springs won't be compressed
+
+00:13:48.590 --> 00:13:59.060
+yep looks a treat again the GitHub page&nbsp;
+with the project files in Ki-CAD are&nbsp;&nbsp;
+
+00:13:59.060 --> 00:14:06.380
+in the description as well as some&nbsp;
+other stuff and thanks for watching
+

@@ -1,0 +1,210 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.320 --> 00:00:06.932
+In my last video we had a look at this inductor&nbsp;
+which was from an LED bulb that had failed.
+
+00:00:06.932 --> 00:00:11.840
+I ended up taking a cross section of this to have a look&nbsp;
+inside and it ended up being rather interesting&nbsp;&nbsp;
+
+00:00:11.840 --> 00:00:15.195
+so I thought I'd show you some of the ones that&nbsp;
+I’ve done in the past.
+
+00:00:15.195 --> 00:00:23.040
+Here is a normal metal film resistor you can see the ceramic core that has&nbsp;
+been coated in metal and then these slits cut in&nbsp;&nbsp;
+
+00:00:23.040 --> 00:00:25.267
+it to adjust the resistance.
+
+00:00:25.267 --> 00:00:31.621
+Here is a solid tantalum capacitor, 
+this one's only been cut one fourth the way through
+
+00:00:31.621 --> 00:00:42.800
+Here is a common&nbsp;1N4001 silicon diode,
+here you can see the silicon junction in the middle&nbsp;
+with the two copper connections on either side&nbsp;&nbsp;
+
+00:00:43.360 --> 00:00:48.960
+there's some sort of conductive adhesive between&nbsp;
+these and of course the plastic encapsulation&nbsp;&nbsp;
+
+00:00:49.840 --> 00:00:55.920
+This here is a rather interesting silicon&nbsp;
+avalanche diode manufactured by Vishay
+
+00:00:56.720 --> 00:01:02.720
+this diode is in a sintered glass package which&nbsp;
+contains quite a few different metals that have&nbsp;&nbsp;
+
+00:01:02.720 --> 00:01:07.760
+been soldered together I’m not exactly sure&nbsp;
+why they do everything in this package but it's&nbsp;&nbsp;
+
+00:01:07.760 --> 00:01:13.440
+certainly rather interesting, the construction&nbsp;
+also explains why this particular diode has a&nbsp;&nbsp;
+
+00:01:13.440 --> 00:01:19.360
+surprisingly large leakage current due to light&nbsp;
+exposure as you can see the sintered glass package&nbsp;&nbsp;
+
+00:01:19.360 --> 00:01:22.371
+connects directly to the silicon die.
+
+00:01:22.371 --> 00:01:35.719
+now the&nbsp;particular diode that I’m interested in today is this one here this is a 2CL77 20 killovolt 5&nbsp;milliamps diode, this one's manufactured by HVGT&nbsp;semiconductor 
+
+00:01:35.719 --> 00:01:40.000
+and I’m rather interested&nbsp;
+to see how this is constructed inside.
+
+00:01:40.000 --> 00:01:43.840
+If we take a look at the datasheet&nbsp;
+we can see it's a pretty standard&nbsp;&nbsp;
+
+00:01:43.840 --> 00:01:49.600
+high voltage silicon rectifier diode and&nbsp;
+we can see it's used in circuits such as this&nbsp;&nbsp;
+
+00:01:49.600 --> 00:01:56.560
+one here but the applications list air purifiers&nbsp;
+negative ion generators and electrostatic voltage&nbsp;&nbsp;
+
+00:01:56.560 --> 00:02:01.600
+doubling circuits and I’ve more specifically&nbsp;
+seen these before in laser printers quite&nbsp;&nbsp;
+
+00:02:01.600 --> 00:02:08.080
+often in the high voltage circuits for the toner&nbsp;
+electrostatic stuff but you can often see these in&nbsp;&nbsp;
+
+00:02:08.080 --> 00:02:14.560
+low power reasonably low voltage x-ray machines&nbsp;
+that mean 20 killovolts of course and of course&nbsp;&nbsp;
+
+00:02:14.560 --> 00:02:20.640
+other high-voltage rectifier circuits however I’m&nbsp;
+not quite sure how these are manufactured although&nbsp;&nbsp;
+
+00:02:20.640 --> 00:02:27.280
+looking more specifically at the datasheet we&nbsp;
+can see this here maximum forward voltage drop&nbsp;&nbsp;
+
+00:02:27.280 --> 00:02:33.440
+is 45 volts which makes me think this is actually&nbsp;
+just a whole bunch of normal silicon dies&nbsp;&nbsp;
+
+00:02:33.440 --> 00:02:39.920
+stacked on top of each other in order to reach a&nbsp;
+20 killovolt breakdown voltage now in order to do&nbsp;&nbsp;
+
+00:02:39.920 --> 00:02:44.880
+the cross section I’m just going to do exactly&nbsp;
+the same as I did in that other LED video I’ll&nbsp;&nbsp;
+
+00:02:44.880 --> 00:02:50.960
+play it really quickly though so that you can get&nbsp;
+an idea. Now I did cut this on a cross section with&nbsp;&nbsp;
+
+00:02:50.960 --> 00:02:56.400
+the mould line just in case there was some sort&nbsp;
+of a non-symmetrical design but I’m doubting it
+
+00:02:59.600 --> 00:03:17.840
+this took quite a while I started off with 250&nbsp;
+grit and made my way down to eventually 3000 grit
+
+00:03:30.080 --> 00:03:33.280
+a little bit the way through&nbsp;
+we can start to see some&nbsp;&nbsp;
+
+00:03:33.280 --> 00:03:39.760
+by looks of it bits of copper on one side&nbsp;
+of the diode and yet here we go now that&nbsp;&nbsp;
+
+00:03:39.760 --> 00:03:43.360
+I’ve sanded the other side down a bit more&nbsp;
+we can see that it is actually symmetrical&nbsp;&nbsp;
+
+00:03:44.320 --> 00:03:51.680
+sanding it down even further we can start to&nbsp;
+make out some of the silicon die can't really see&nbsp;&nbsp;
+
+00:03:51.680 --> 00:03:56.720
+exactly what's going on here yet so I’ll sand
+it down all the way to halfway through now
+
+00:03:59.200 --> 00:04:04.160
+and of course this took quite a while it's it&nbsp;
+takes quite a lot of effort to sand these things&nbsp;&nbsp;
+
+00:04:04.160 --> 00:04:09.360
+down, eventually I got to halfway through&nbsp;
+though and started polishing it with some&nbsp;&nbsp;
+
+00:04:09.360 --> 00:04:13.840
+2000 and 3000 grit sandpaper&nbsp;
+to make it nice and smooth
+
+00:04:22.640 --> 00:04:27.440
+now that I’m down to halfway through and have&nbsp;
+polished it it's really obvious now you can see&nbsp;&nbsp;
+
+00:04:27.440 --> 00:04:33.360
+the individual lines of the dies so this is&nbsp;
+definitely just manufactured through a bunch&nbsp;&nbsp;
+
+00:04:33.360 --> 00:04:40.720
+of stack diodes now we can quite clearly make&nbsp;
+out the individual silicon dyes and if we count&nbsp;&nbsp;
+
+00:04:40.720 --> 00:04:47.440
+them there's 22 of them and of course dividing&nbsp;
+the maximum forward voltage drop of 45 volts&nbsp;&nbsp;
+
+00:04:47.440 --> 00:04:54.560
+down by 22 we get about 2 volts per silicon die&nbsp;
+which doesn't really make sense to me I’d have&nbsp;&nbsp;
+
+00:04:54.560 --> 00:05:02.240
+expected it to be 0.5 volts per die or about&nbsp;
+that so I’m not sure if these are special or if&nbsp;&nbsp;
+
+00:05:02.240 --> 00:05:07.120
+the manufacturer is just being very generous&nbsp;
+with their maximum forward voltage drop&nbsp;&nbsp;
+
+00:05:07.120 --> 00:05:11.280
+maybe it's under the maximum temperature&nbsp;
+or something something I’m not quite sure&nbsp;&nbsp;
+
+00:05:12.000 --> 00:05:16.960
+if you do know please leave it in the description&nbsp;
+because I can't really find much information about&nbsp;&nbsp;
+
+00:05:16.960 --> 00:05:23.360
+how these high voltage diodes work although&nbsp;
+I did test later on with a high voltage&nbsp;&nbsp;
+
+00:05:23.360 --> 00:05:29.440
+insulation tester and i found that the diode&nbsp;
+drop was actually much closer to what i expected
+
+00:05:31.520 --> 00:05:37.440
+It's also perfectly feasible that the AliExpress&nbsp;
+seller that I bought from either sold me the&nbsp;&nbsp;
+
+00:05:37.440 --> 00:05:46.320
+wrong diode intentionally or accidentally or maybe&nbsp;
+they even purchased a fake diode unintentionally&nbsp;&nbsp;
+
+00:05:47.120 --> 00:05:56.661
+so I’ll just leave you with some other close-up&nbsp;
+shots of this and as always thanks for watching
+

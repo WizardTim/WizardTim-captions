@@ -1,0 +1,12 @@
+SMT Crystal Oscillator Teardown
+
+Taking a look at the construction and inner workings of a common SMT ceramic LCC package quartz crystal oscillator from KDS / Daishinku Corporation (株式会社大真空) manufactured in the late 1990s.
+
+
+The quartz strip resonator measures 4.96 x 2.46 x 0.10 mm, this hints at this being a 16 MHz crystal with the oscillator circuit using the third overtone at 48 MHz.
+
+
+Update: New microscope pictures and datasheet.
+https://www.youtube.com/post/Ugkx-P1Bvt0LztyGCv-cCmT4MA4Oa2P8HjAq
+
+REF: WT-YT-V-2

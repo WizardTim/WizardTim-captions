@@ -1,0 +1,15 @@
+FR-4 Moisture & Temperature Resistance
+
+FR-4 resin bonded fibreglass PCBs are often referred to as moisture sensitive and can come packed with moisture absorbing silica gels, they also have glass transition temperature ratings that should not be exceeded during operation. This video takes an in-depth experimental look at the moisture and temperature resistance of FR-4 PCBs and compares the results to Phenolic PCBs.
+
+
+00:00 – Intro
+00:46 – Normal Moisture
+01:34 – Extreme Temperature
+02:37 – Extreme Moisture & Temperature
+03:43 – Extreme Moisture
+04:32 – Extreme Moisture Failure Analysis
+10:13 – Outro
+
+
+REF: WT-YT-V-7

@@ -1,0 +1,14 @@
+Teardown & Cleaning a Laser Dust Sensor PMS7003 After 2 Years
+
+Looking inside and cleaning out 2 years of dust from a popular PLANTOWER (攀藤科技) low-cost dust sensor (model PMS7003) capable of counting individual dust particles by size using laser scattering to calculate a metric of μg/m³.
+
+00:00 – Intro
+01:37 – Design Differences
+03:25 – Optical Operation
+05:39 – PCB Analysis
+08:17 – Cleaning
+10:45 – Reassembly
+11:17 – Outro
+
+
+REF: WT-YT-V-3

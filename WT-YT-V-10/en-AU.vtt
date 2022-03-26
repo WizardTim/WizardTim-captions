@@ -1,0 +1,358 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:06.800
+This here is a 5.5 watt OSRAM LED&nbsp;
+bulb it's a bayonet style bulb&nbsp;&nbsp;
+
+00:00:07.440 --> 00:00:12.880
+and it's been in service for a couple of years&nbsp;
+now it's been on an automated timer that goes on&nbsp;&nbsp;
+
+00:00:12.880 --> 00:00:20.320
+every night for a couple hours and unfortunately&nbsp;
+it no longer works so I thought I'd try and fix it&nbsp;&nbsp;
+
+00:00:20.320 --> 00:00:28.880
+so as is usual with LED bulbs the diffuser is made&nbsp;
+of plastic so I think I can just lever it off like&nbsp;&nbsp;
+
+00:00:28.880 --> 00:00:37.360
+this and after doing that for a while it came&nbsp;
+loose like this and we can see the diffuser is&nbsp;&nbsp;
+
+00:00:37.360 --> 00:00:43.920
+adhesived in with what looks like silicone on&nbsp;
+these tabs here and the diffuser is indeed made&nbsp;&nbsp;
+
+00:00:43.920 --> 00:00:50.560
+of plastic because it's all bendy now looking&nbsp;
+at this aluminium core PCB we can see there's&nbsp;&nbsp;
+
+00:00:50.560 --> 00:00:56.480
+eight LEDs on board and if we look closely at them&nbsp;
+we can see that there's three pieces of silicon&nbsp;&nbsp;
+
+00:00:56.480 --> 00:01:03.520
+in each chip so these are probably nine and a bit&nbsp;
+forward voltage LEDs which allows them to use so&nbsp;&nbsp;
+
+00:01:03.520 --> 00:01:11.920
+few LED packages in probably what operates at&nbsp;
+a reasonably high voltage and we can see that&nbsp;&nbsp;
+
+00:01:11.920 --> 00:01:18.480
+these LEDs are connected to rather large copper&nbsp;
+areas on the PCB which presumably helps with&nbsp;&nbsp;
+
+00:01:19.200 --> 00:01:24.880
+heat dissipation although interestingly they&nbsp;
+don't use the same side of the LED package it's&nbsp;&nbsp;
+
+00:01:24.880 --> 00:01:30.480
+a so i'd imagine some of these would fail before&nbsp;
+the others but let's test them to see whether or&nbsp;&nbsp;
+
+00:01:30.480 --> 00:01:39.840
+not they're good they don't have the black spot&nbsp;
+of death on them so i think they might be good&nbsp;&nbsp;
+
+00:01:40.560 --> 00:01:47.040
+and testing this first one it's probably&nbsp;
+around the wrong way this one's good yep&nbsp;&nbsp;
+
+00:01:48.640 --> 00:01:56.960
+nice warm white this one's&nbsp;
+good this one's good good good
+
+00:02:01.200 --> 00:02:07.840
+and round the other way this one's good this&nbsp;
+one's good and this one's good so they're all good&nbsp;&nbsp;
+
+00:02:08.640 --> 00:02:14.720
+so it's probably a problem with the power supply&nbsp;
+so let me get this silicone out of the way
+
+00:02:18.480 --> 00:02:24.240
+and i'm not quite sure how to get this&nbsp;
+aluminium board out it's uh it's really&nbsp;&nbsp;
+
+00:02:24.240 --> 00:02:31.600
+wedged in there they seem to have press fit&nbsp;
+it into the aluminium uh case of the LED thing&nbsp;&nbsp;
+
+00:02:32.800 --> 00:02:38.000
+yeah so this thing was pretty difficult to get&nbsp;
+out so i fast forwarded it here and i ended up&nbsp;&nbsp;
+
+00:02:38.000 --> 00:02:44.560
+having to just stuff a metal spudger in the side&nbsp;
+and lever it out which actually broke the outer&nbsp;&nbsp;
+
+00:02:44.560 --> 00:02:50.480
+plastic bit but i was just able to super glue&nbsp;
+that back together and of course the bayonet style&nbsp;&nbsp;
+
+00:02:51.040 --> 00:02:55.920
+contacts on the bottom we can just lever these&nbsp;
+out they just press fit sometimes they're soldered&nbsp;&nbsp;
+
+00:02:57.520 --> 00:03:02.000
+so now that we've got the power supply out the&nbsp;
+first thing that we can see is that it's rather&nbsp;&nbsp;
+
+00:03:02.000 --> 00:03:08.960
+discolored so this thing certainly gets very hot&nbsp;
+during operation which is no surprise seeing as&nbsp;&nbsp;
+
+00:03:08.960 --> 00:03:16.800
+it's a dirt cheap product but there's no obvious&nbsp;
+skid marks nothing's catastrophically exploded&nbsp;&nbsp;
+
+00:03:17.680 --> 00:03:25.120
+everything looks reasonably good no broken&nbsp;
+solar joints that i can immediately see
+
+00:03:29.440 --> 00:03:31.840
+on the other side there's&nbsp;
+some pretty basic components&nbsp;&nbsp;
+
+00:03:32.960 --> 00:03:36.960
+here we see the capacitor is actually 125 degrees&nbsp;&nbsp;
+
+00:03:36.960 --> 00:03:45.840
+rated so that's good no bulging the capacitor&nbsp;
+is an AiSHi brand which is pretty good actually
+
+00:03:49.360 --> 00:03:55.920
+this inductor is marked 4.0 brackets&nbsp;
+0.6 so i imagine that's probably four&nbsp;&nbsp;
+
+00:03:55.920 --> 00:04:03.280
+micro-henries at 600 milli-amps that&nbsp;
+seems a bit much but it's probably correct&nbsp;&nbsp;
+
+00:04:04.880 --> 00:04:09.360
+so i think the very first thing to do&nbsp;
+will be to test this here fusible resistor&nbsp;&nbsp;
+
+00:04:10.560 --> 00:04:18.480
+just to make sure it has continuity and testing&nbsp;
+it yep it has continuity it's a couple of ohms&nbsp;&nbsp;
+
+00:04:20.320 --> 00:04:27.840
+so i'd say this is good and that means something&nbsp;
+hasn't catastrophically failed short circuit&nbsp;&nbsp;
+
+00:04:28.800 --> 00:04:34.880
+now testing this diode bridge we expect to see&nbsp;
+some diode drops in some directions and in other&nbsp;&nbsp;
+
+00:04:34.880 --> 00:04:43.760
+directions not so testing that there's a diode&nbsp;
+drop and a diode drop and the other way around&nbsp;&nbsp;
+
+00:04:45.360 --> 00:04:51.760
+from the negative side dia drop yep now the&nbsp;
+next thing in the circuit before that large bulk&nbsp;&nbsp;
+
+00:04:51.760 --> 00:04:57.280
+400 volt capacitor is this here inductor which&nbsp;
+probably has something to do with the power factor&nbsp;&nbsp;
+
+00:04:57.840 --> 00:05:04.000
+and measuring that for continuity pretty sure i've&nbsp;
+got a good contact here but it's it's measuring&nbsp;&nbsp;
+
+00:05:04.000 --> 00:05:12.240
+like millions of ohms um yeah i'm definitely&nbsp;
+making good contact so i think this inductor might&nbsp;&nbsp;
+
+00:05:12.240 --> 00:05:17.840
+be bad now looking at the inductor we can actually&nbsp;
+see that there's some cracking on the top here&nbsp;&nbsp;
+
+00:05:18.880 --> 00:05:25.920
+so i'd imagine this thing has been thermal cycled&nbsp;
+a few too many times and something inside of it&nbsp;&nbsp;
+
+00:05:25.920 --> 00:05:34.880
+has gone wrong or maybe it's just underrated and&nbsp;
+something has melted inside and we can also see on&nbsp;&nbsp;
+
+00:05:34.880 --> 00:05:41.360
+the bottom here there's some more cracking so yeah&nbsp;
+this inductor isn't happy so i'm just&nbsp;&nbsp;
+
+00:05:41.360 --> 00:05:48.080
+going to remove that now the color code on this&nbsp;
+inductor says it's a three milli-henry inductor&nbsp;&nbsp;
+
+00:05:48.080 --> 00:05:55.440
+that's 10% rated i had a look through my junk box&nbsp;
+and i couldn't find a similar thing although i&nbsp;&nbsp;
+
+00:05:55.440 --> 00:06:01.040
+had this larger 10 milli-henry inductor and it's&nbsp;
+physically larger as well so i reckon that'll do&nbsp;&nbsp;
+
+00:06:01.600 --> 00:06:06.240
+i don't really know what this thing's rated for&nbsp;
+in terms of current but i imagine it's probably&nbsp;&nbsp;
+
+00:06:06.240 --> 00:06:12.080
+good enough for this application and just&nbsp;
+putting that back in place soldering it together&nbsp;&nbsp;
+
+00:06:12.080 --> 00:06:19.840
+and then putting this thing&nbsp;
+back together not too difficult
+
+00:06:24.080 --> 00:06:29.200
+and then i put it back in the fixture and turned&nbsp;
+it on and we can see it works perfectly now&nbsp;&nbsp;
+
+00:06:29.200 --> 00:06:37.520
+so that inductor was definitely faulty and i also&nbsp;
+had a look at it with the thermal camera and it&nbsp;&nbsp;
+
+00:06:37.520 --> 00:06:44.800
+didn't look too bad i mean it gets pretty hot but&nbsp;
+i imagine it's designed like that so i just put&nbsp;&nbsp;
+
+00:06:44.800 --> 00:06:53.200
+the diffuser back on and it should be good to go&nbsp;
+now this inductor here that's failed i'm actually&nbsp;&nbsp;
+
+00:06:53.200 --> 00:07:00.560
+quite interested to see how it's failed i'm not&nbsp;
+sure if some of the windings have overheated and&nbsp;&nbsp;
+
+00:07:00.560 --> 00:07:08.480
+fused together or something and it's i don't know&nbsp;
+exploded inside maybe or if it's just a thermal&nbsp;&nbsp;
+
+00:07:08.480 --> 00:07:16.640
+cycle thing and some of the wires have broken or&nbsp;
+something so i think it's a good opportunity to&nbsp;&nbsp;
+
+00:07:16.640 --> 00:07:24.640
+do some more advanced failure analysis on this&nbsp;
+so i'm going to prepare some two-part epoxy here&nbsp;&nbsp;
+
+00:07:24.640 --> 00:07:29.920
+and i'm just going to mix that together mix it&nbsp;
+mix and mix it and then of course once i think&nbsp;&nbsp;
+
+00:07:29.920 --> 00:07:36.320
+i've mixed it i mix it some more otherwise it&nbsp;
+turns out rubbish and then putting the inductor&nbsp;&nbsp;
+
+00:07:36.320 --> 00:07:43.200
+in and mixing it around to make sure all of&nbsp;
+these surfaces are wetted and then i put that&nbsp;&nbsp;
+
+00:07:43.200 --> 00:07:51.120
+on a little hot plate i made for a couple hours&nbsp;
+and here i'm just going to crank it up to max
+
+00:07:55.760 --> 00:08:02.320
+all right it's been about three&nbsp;
+hours and i've let this thing 
+
+00:08:02.320 --> 00:08:09.280
+bake for a while as well as cool down and in&nbsp;
+hindsight i think i roasted it a little bit&nbsp;&nbsp;
+
+00:08:09.280 --> 00:08:14.080
+too much as it's formed quite a few bubbles and&nbsp;
+has discolored a little bit however that doesn't&nbsp;&nbsp;
+
+00:08:14.080 --> 00:08:18.240
+really matter in this application we can also&nbsp;
+see actually that there's some bubbles that have&nbsp;&nbsp;
+
+00:08:18.240 --> 00:08:24.240
+formed around the cracks so yeah i wonder if&nbsp;
+some of the epoxy is gone in there and some of&nbsp;&nbsp;
+
+00:08:24.240 --> 00:08:28.800
+the air is escaped and that's where some of these&nbsp;
+bubbles are coming from as well now to start off&nbsp;&nbsp;
+
+00:08:28.800 --> 00:08:34.880
+i'm just going to use some 220 grit sandpaper&nbsp;
+and i'm just going to go to town on it and i'm&nbsp;&nbsp;
+
+00:08:34.880 --> 00:08:39.840
+going to get through the first layer and here we&nbsp;
+can start to see some of the construction of it
+
+00:08:44.560 --> 00:08:53.840
+looks to be a whole heap of fine&nbsp;
+wire wound around a ferrite core
+
+00:09:27.680 --> 00:09:33.040
+now that we've got more of it off we can&nbsp;
+start to see some more detail in how this&nbsp;&nbsp;
+
+00:09:33.040 --> 00:09:49.840
+thing's manufactured can't see any obvious&nbsp;
+melted sections it all looks pretty good
+
+00:09:56.480 --> 00:10:01.840
+now i'm going to grind it down to the very center&nbsp;
+so that we can have a look at how this thing has&nbsp;&nbsp;
+
+00:10:01.840 --> 00:10:18.240
+its leads constructed because i'm not actually&nbsp;
+sure how they put the leads in this thing&nbsp;&nbsp;
+
+00:10:18.240 --> 00:10:23.600
+and now i'm at about the center so i'm going&nbsp;
+to go to 2000 grit paper and wet sand it
+
+00:10:27.840 --> 00:10:31.840
+and then go to 3000 and sort of polish it&nbsp;&nbsp;
+
+00:10:35.280 --> 00:10:42.320
+so now it's nice and polished we can take a look&nbsp;
+at it and oh yeah so this is how they do it so it&nbsp;&nbsp;
+
+00:10:42.320 --> 00:10:48.160
+looks like they wrapped the wires around the lead&nbsp;
+here and solder it together and then they sort of&nbsp;&nbsp;
+
+00:10:48.160 --> 00:10:54.480
+glue the uh lead into the end and the end of it&nbsp;
+has been formed and we can see the interface here&nbsp;&nbsp;
+
+00:10:54.480 --> 00:11:04.560
+between the ferrite and the lead and we can also&nbsp;
+see right here where that crack is and we can see&nbsp;&nbsp;
+
+00:11:04.560 --> 00:11:10.800
+on the outside of the device as well where that&nbsp;
+crack was so it looks like that crack has formed&nbsp;&nbsp;
+
+00:11:10.800 --> 00:11:20.400
+around where the wire comes off the lead and goes&nbsp;
+around to the actual windings so i suspect one of&nbsp;&nbsp;
+
+00:11:20.400 --> 00:11:27.280
+these cracks has broken that wire and that's&nbsp;
+why it's gone open circuit so that pretty&nbsp;&nbsp;
+
+00:11:27.280 --> 00:11:32.560
+much solves the mystery as to why this thing's&nbsp;
+broken unfortunately i didn't get a smoking gun&nbsp;&nbsp;
+
+00:11:32.560 --> 00:11:38.880
+picture of exactly where it's cracked but i think&nbsp;
+that shows pretty much where it's happened so i'll&nbsp;&nbsp;
+
+00:11:38.880 --> 00:11:55.840
+just leave you with some nice pictures of that&nbsp;
+cross section so as always thanks for watching
+

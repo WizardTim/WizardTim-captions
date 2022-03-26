@@ -1,0 +1,12 @@
+Counterfeit eBay TO-3 Transistor Teardown
+
+Taking a look at a suspicious TO-3 2N3055 BJT transistor acquired from an eBay seller for cheap that is allegedly manufactured by STmicroelectronics.
+
+00:00 – TO-3 Transistors and looking for a 2N3055
+02:45 – Transistors from eBay
+03:39 –Suspicious paint
+05:43 – Teardown
+06:47 – Die analysis
+07:54 – Thermal Image
+
+REF: WT-YT-V-13

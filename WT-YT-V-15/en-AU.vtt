@@ -1,0 +1,727 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:04.800
+Today we're going to be attempting a&nbsp;
+repair on this here washing machine.
+
+00:00:05.440 --> 00:00:13.280
+This is a Simpson brand washing machine from&nbsp;
+about 2010, this is part of their easy set range&nbsp;&nbsp;
+
+00:00:13.840 --> 00:00:21.760
+and this particular unit has a bit of a problem.&nbsp;
+The fault condition this thing goes into is when&nbsp;&nbsp;
+
+00:00:21.760 --> 00:00:29.120
+you turn it on it appears to work perfectly fine&nbsp;
+but after a few minutes it will just turn off&nbsp;&nbsp;
+
+00:00:29.120 --> 00:00:34.880
+but when you turn it off at the power outlet&nbsp;
+after a couple seconds it will turn back on,&nbsp;&nbsp;
+
+00:00:35.440 --> 00:00:42.400
+and then immediately back off, so I'm thinking it&nbsp;
+might have something to do with a power supply&nbsp;&nbsp;
+
+00:00:42.400 --> 00:00:50.000
+problem so this might be salvageable. So getting&nbsp;
+into this there's just four screws at the back and&nbsp;&nbsp;
+
+00:00:50.000 --> 00:00:59.360
+we can take off this top plastic cover and we can&nbsp;
+see here the line cable comes in it goes to a line&nbsp;&nbsp;
+
+00:00:59.360 --> 00:01:07.120
+filter a power switch and then that goes to this&nbsp;
+here controller board which looks like it has the&nbsp;&nbsp;
+
+00:01:07.120 --> 00:01:14.400
+power supply on it along with some other things&nbsp;
+possibly a VFD for the main motor there's two&nbsp;&nbsp;
+
+00:01:14.400 --> 00:01:20.640
+solenoids here for the hot and cold water and&nbsp;
+then there's these two circuit boards here one for&nbsp;&nbsp;
+
+00:01:20.640 --> 00:01:26.640
+all of the buttons LEDs and the seven segment&nbsp;
+display and we can see there's a buzzer on there&nbsp;&nbsp;
+
+00:01:26.640 --> 00:01:33.600
+as well and then the other one is just a rotary&nbsp;
+encoder for the current mode so I'm suspecting&nbsp;&nbsp;
+
+00:01:33.600 --> 00:01:39.840
+our problem is going to be on this power supply&nbsp;
+looking board so taking a closer look at that.&nbsp;&nbsp;
+
+00:01:40.960 --> 00:01:47.600
+We can see here it's starting to look very&nbsp;
+power supply like, we have the mains input&nbsp;&nbsp;
+
+00:01:47.600 --> 00:01:52.560
+here with all of the filtering a bridge&nbsp;
+rectifier a main bulk capacitor which is&nbsp;&nbsp;
+
+00:01:53.120 --> 00:01:59.840
+quite large actually although this chip here quite&nbsp;
+large looks to be some sort of fully integrated&nbsp;&nbsp;
+
+00:01:59.840 --> 00:02:04.880
+H-bridge or motor driver and that's probably&nbsp;
+what this connector here is going to that main&nbsp;&nbsp;
+
+00:02:05.600 --> 00:02:10.960
+motor at the bottom of the washing machine.&nbsp;
+However we can see that there's a transformer&nbsp;&nbsp;
+
+00:02:10.960 --> 00:02:18.320
+here, a lot of capacitors and some sort of probably&nbsp;
+switching transistor, so I suspect this here is our&nbsp;&nbsp;
+
+00:02:18.320 --> 00:02:26.800
+power supply and we also can see that there's a&nbsp;
+controller here from International Rectifier&nbsp;&nbsp;
+
+00:02:27.360 --> 00:02:35.120
+which is probably the main system controller for&nbsp;
+the entire washing machine or it might just be for&nbsp;&nbsp;
+
+00:02:35.120 --> 00:02:42.000
+the motor because there is that other board but we&nbsp;
+might not even have to deal with any of that stuff.&nbsp;
+
+00:02:43.040 --> 00:02:48.480
+Also of note is all of these opto-isolators&nbsp;
+and the fact that this has a transformer&nbsp;&nbsp;
+
+00:02:49.040 --> 00:02:54.320
+so we can be pretty safe to assume that&nbsp;
+this is an isolated power supply and I&nbsp;&nbsp;
+
+00:02:54.320 --> 00:02:59.760
+can just probe around in this low voltage&nbsp;
+stuff perfectly fine... or is it actually?&nbsp;&nbsp;
+
+00:03:00.560 --> 00:03:06.080
+So maybe, maybe I should take a closer look at&nbsp;
+this before I start shoving my finger on that.&nbsp;&nbsp;
+
+00:03:06.080 --> 00:03:14.800
+So with the board out I'm really not seeing&nbsp;
+where that isolation gap is I mean there's sort&nbsp;&nbsp;
+
+00:03:14.800 --> 00:03:23.520
+of something here but what's all these things&nbsp;
+here going to the probably motor controller...&nbsp;&nbsp;
+
+00:03:25.280 --> 00:03:36.720
+yeah... and the other side is a complete mess like&nbsp;
+where, where is this isolation? For reference here's&nbsp;&nbsp;
+
+00:03:36.720 --> 00:03:43.680
+an ATX computer power supply and you can see&nbsp;
+that isolation gap is really obvious. So I&nbsp;&nbsp;
+
+00:03:43.680 --> 00:03:53.120
+think maybe testing continuity and testing this&nbsp;
+bridge rectifier, yep the input is connected to&nbsp;&nbsp;
+
+00:03:53.120 --> 00:03:59.840
+this bridge rectifier directly and how about&nbsp;
+the ground of this here crystal oscillator?
+
+00:04:02.800 --> 00:04:09.600
+Yep it's connected directly to neutral or at least&nbsp;
+one diode drop through the bridge rectifier.&nbsp;&nbsp;
+
+00:04:10.240 --> 00:04:17.360
+So um yeah that, that could have been a bit of a&nbsp;
+tingle I mean it is neutral but there's plenty of&nbsp;&nbsp;
+
+00:04:17.360 --> 00:04:22.000
+countries that have non-polarized plugs&nbsp;
+and there's plenty of houses that have&nbsp;&nbsp;
+
+00:04:22.000 --> 00:04:27.520
+live and neutral reversed and I'm also not&nbsp;
+quite sure what other high voltage stuff is&nbsp;&nbsp;
+
+00:04:27.520 --> 00:04:31.120
+on the supposedly "secondary"&nbsp;
+side of this power supply,&nbsp;&nbsp;
+
+00:04:31.760 --> 00:04:38.080
+so yeah that's something to watch out for&nbsp;
+in these sorts of consumer appliances where&nbsp;&nbsp;
+
+00:04:38.080 --> 00:04:43.680
+it's unreasonable to expect the end consumer is&nbsp;
+going to touch any of the electronic circuits.&nbsp;&nbsp;
+
+00:04:45.280 --> 00:04:51.040
+And when you're working on stuff like this don't&nbsp;
+forget to discharge the main bulk capacitor on&nbsp;it,&nbsp;
+
+00:04:51.040 --> 00:04:58.720
+this one's quite large i think it probably&nbsp;
+stores around 30 to 40 joules of energy so that&nbsp;could, &nbsp;
+
+00:04:58.720 --> 00:05:06.880
+that could hurt quite a bit so now we can&nbsp;
+safely take a look at all of these soldered joints...&nbsp;&nbsp;
+
+00:05:07.760 --> 00:05:13.680
+I'm not seeing anything here it looks all&nbsp;
+good we can of course see that this board is&nbsp;&nbsp;
+
+00:05:13.680 --> 00:05:20.080
+nicely conformally coated so we can rule out any&nbsp;
+sort of contaminants affecting the performance&nbsp;&nbsp;
+
+00:05:20.800 --> 00:05:28.560
+but the soldering quality on this looks quite&nbsp;
+good and I'm not seeing any broken solder joints&nbsp;&nbsp;
+
+00:05:29.280 --> 00:05:34.480
+all of these surface mount devices also look&nbsp;
+quite good none of them are tombstone none of&nbsp;&nbsp;
+
+00:05:34.480 --> 00:05:41.600
+them have cold joints. And on the other&nbsp;
+side taking a look at these capacitors&nbsp;&nbsp;
+
+00:05:42.560 --> 00:05:48.160
+none of them are bulging, none of them&nbsp;
+are leaking, they all look perfectly fine&nbsp;&nbsp;
+
+00:05:50.000 --> 00:05:55.760
+normally it's the capacitors because they are 
+electrolytics, even this one here right next to&nbsp;&nbsp;
+
+00:05:55.760 --> 00:06:04.080
+this transistor heatsink is perfectly fine so yeah&nbsp;
+it might not be an easy fix like a capacitor so...&nbsp;&nbsp;
+
+00:06:04.640 --> 00:06:11.840
+So I guess it's time to whip out my secret&nbsp;
+weapon, my thermal camera and looking at the PCB 
+
+00:06:11.840 --> 00:06:18.240
+now installed into the device after about&nbsp;
+five minutes it decides to turn itself off&nbsp;&nbsp;
+
+00:06:19.040 --> 00:06:26.400
+and going to the thermal view we can see that that&nbsp;
+transistor is getting quite hot by the looks of it&nbsp;&nbsp;
+
+00:06:27.520 --> 00:06:32.480
+and coming in closer now I can see it's&nbsp;
+not actually that transistor but this here&nbsp;&nbsp;
+
+00:06:32.480 --> 00:06:37.040
+DIP package device this thing&nbsp;
+here seems to be the problem&nbsp;&nbsp;
+
+00:06:37.920 --> 00:06:43.360
+and getting the macro lens on it now we can&nbsp;
+see this is definitely the problem it's got a&nbsp;&nbsp;
+
+00:06:43.360 --> 00:06:51.200
+massive hotspot on it and it is 128 degrees,
+yeah this thing is not having a good day&nbsp;&nbsp;
+
+00:06:52.320 --> 00:06:57.760
+this is definitely not meant to operate this hot&nbsp;
+because i'd expect at this temperature this FR-4 
+
+00:06:57.760 --> 00:07:04.080
+PCB would be heavily discolored but, this, this&nbsp;
+problem's only been happening for about a week&nbsp;&nbsp;
+
+00:07:04.080 --> 00:07:12.080
+so it's been caught early on so it's not had time&nbsp;
+to damage the PCB. So yeah I'm suspecting this chip.&nbsp;&nbsp;
+
+00:07:12.640 --> 00:07:19.520
+Although it could be something like a fault on&nbsp;
+the output is bringing this chip's output into&nbsp;&nbsp;
+
+00:07:19.520 --> 00:07:25.520
+some sort of short circuit protection but I'd&nbsp;
+imagine there should be other hot spots and&nbsp;&nbsp;
+
+00:07:25.520 --> 00:07:31.600
+a very hot PCB trace so I'm suspecting there's&nbsp;
+something maybe internally wrong with this chip&nbsp;&nbsp;
+
+00:07:32.640 --> 00:07:39.360
+taking a closer look at that chip it is this&nbsp;
+one here and we can see the soldering on the&nbsp;&nbsp;
+
+00:07:39.360 --> 00:07:44.720
+opposite side is perfectly acceptable so&nbsp;
+it's not that it's got a loose connection&nbsp;&nbsp;
+
+00:07:45.520 --> 00:07:51.600
+so taking a closer look at the chip itself&nbsp;
+we can see it's one of these eight pin high-voltage&nbsp;&nbsp;
+
+00:07:51.600 --> 00:07:57.840
+DIP packages because it has this missing&nbsp;
+pin here to get higher high voltage separation&nbsp;&nbsp;
+
+00:07:58.560 --> 00:08:06.240
+so I'm suspecting this might be some sort of&nbsp;
+fully integrated off-line voltage switcher and 
+
+00:08:06.240 --> 00:08:17.120
+looking at the marking I'm not familiar with&nbsp;
+this logo by hand however the marking is "TNY278PN"
+
+00:08:17.120 --> 00:08:23.360
+and it appears to have been manufactured the&nbsp;
+32nd week 2010 which makes sense for this device&nbsp;&nbsp;
+
+00:08:24.080 --> 00:08:27.680
+so I had a bit of a search round&nbsp;
+and I found this here datasheet&nbsp;&nbsp;
+
+00:08:28.640 --> 00:08:34.480
+as it turns out this chip is from Power&nbsp;
+Integrations this is part of the TinySwitch-III&nbsp;&nbsp;
+
+00:08:34.480 --> 00:08:42.480
+family which says it's an "energy efficient offline&nbsp;
+switcher with enhanced flexibility and extended&nbsp;&nbsp;
+
+00:08:42.480 --> 00:08:52.320
+power range" and we can see here we have the "TNY278P"
+which is either 16 or 28 watts depending on&nbsp;&nbsp;
+
+00:08:52.320 --> 00:08:58.400
+presumably the cooling capabilities of the&nbsp;
+enclosure and taking a closer look into&nbsp;&nbsp;
+
+00:08:58.400 --> 00:09:06.320
+this datasheet we can see a recommended circuit&nbsp;
+board layout which also includes a thermal check&nbsp;&nbsp;
+
+00:09:06.320 --> 00:09:12.720
+note which says that the maximum operating&nbsp;
+temperature should not exceed 110 and further&nbsp;&nbsp;
+
+00:09:12.720 --> 00:09:19.200
+in the data sheet we can see there is a thermal&nbsp;
+shutdown temperature of a 142 degrees which&nbsp;&nbsp;
+
+00:09:19.200 --> 00:09:25.360
+I imagine in that thermal picture of it being 128&nbsp;
+degrees on the outside the die temperature was&nbsp;&nbsp;
+
+00:09:25.360 --> 00:09:32.400
+probably certainly over that and that would also&nbsp;
+explain why this thing randomly turns on after&nbsp;&nbsp;
+
+00:09:32.400 --> 00:09:39.120
+you unplug it from the wall probably some sort&nbsp;
+of die cooldown thing re-enabling the chip for&nbsp;&nbsp;
+
+00:09:39.120 --> 00:09:47.680
+a second so I'm starting to get rather suspicious&nbsp;
+of this chip although I've just remembered I had a&nbsp;&nbsp;
+
+00:09:47.680 --> 00:09:55.520
+ATX computer power supply from my old computer&nbsp;
+from 2011 that had a strange problem with what&nbsp;&nbsp;
+
+00:09:55.520 --> 00:10:02.640
+I suspect was the standby power supply deciding&nbsp;
+not to work one day and if we take it apart we&nbsp;&nbsp;
+
+00:10:02.640 --> 00:10:13.680
+can see it has exactly the same chip it is a "TNY278PN"
+however this one's from the 18th week 2011.&nbsp;&nbsp;
+
+00:10:14.240 --> 00:10:19.120
+now I never actually fixed this power supply&nbsp;
+because I just bought a new one however at the&nbsp;&nbsp;
+
+00:10:19.120 --> 00:10:25.600
+time I was a little suspicious that this chip&nbsp;
+might be a problem and with this new washing&nbsp;&nbsp;
+
+00:10:25.600 --> 00:10:32.720
+machine PCB I'm now extremely suspicious of this&nbsp;
+chip so I think the next best step is to just&nbsp;&nbsp;
+
+00:10:32.720 --> 00:10:38.640
+buy a new chip and whack it in that's probably the&nbsp;
+easiest thing to do to check if that's the problem&nbsp;&nbsp;
+
+00:10:39.600 --> 00:10:48.400
+and so I want this chip next day so taking a look&nbsp;
+on element14 we can see the "TNY278PN" is available&nbsp;&nbsp;
+
+00:10:49.120 --> 00:10:57.840
+and it's only AU$2.64 so I shall buy some of them and&nbsp;
+we'll see if we can repair it tomorrow although it&nbsp;&nbsp;
+
+00:10:57.840 --> 00:11:05.280
+will be the next second for you. So here's that new&nbsp;
+chip it's the same package although the engraving&nbsp;&nbsp;
+
+00:11:05.280 --> 00:11:11.920
+is different we can see Power Integrations has&nbsp;
+changed their logo since this one is manufactured&nbsp;&nbsp;
+
+00:11:11.920 --> 00:11:20.640
+the 42nd week 2021 so this should be quite simple&nbsp;
+to just get the desoldering gun out... uh oh okay...
+
+00:11:24.800 --> 00:11:32.080
+So I guess the the desoldering gun has decided&nbsp;
+to have a shorted heating element today&nbsp;&nbsp;
+
+00:11:32.640 --> 00:11:38.320
+of all days I want to fix this today though&nbsp;
+so I guess we're going to be doing it manually&nbsp;&nbsp;
+
+00:11:38.960 --> 00:11:45.200
+and I can't find my solder sucker either so I&nbsp;
+guess we're going to be demoing how to remove&nbsp;&nbsp;
+
+00:11:45.200 --> 00:11:51.760
+a DIP package and put a new one in with a&nbsp;
+soldering iron and basic hand tools... oh goodie...&nbsp;&nbsp;[sounds of despair]
+
+00:11:53.200 --> 00:12:00.240
+Okay so firstly we're going to be scraping&nbsp;
+off the conformal coating and adding&nbsp;&nbsp;
+
+00:12:00.240 --> 00:12:07.280
+some leaded solder to make my life easier, also&nbsp;
+going to be very generous with the flux pen&nbsp;&nbsp;
+
+00:12:08.240 --> 00:12:14.720
+and I might as well give this solder braid a&nbsp;
+go although I've never have any success with it&nbsp;&nbsp;
+
+00:12:14.720 --> 00:12:21.600
+and uh yeah no success with that so I guess it's&nbsp;
+just going to be cutting the chip out just with&nbsp;&nbsp;
+
+00:12:21.600 --> 00:12:29.280
+a set of side cutters pulling it out and then&nbsp;
+we can clean up the rest of the conformal coating&nbsp;&nbsp;
+
+00:12:29.280 --> 00:12:38.960
+and then it's just as easy as heating up the pad&nbsp;
+on the other side and pulling out the legs.
+
+00:12:38.960 --> 00:12:46.080
+And now with that chip out we have to make sure that&nbsp;
+we can put the new ones in through the holes but&nbsp;&nbsp;
+
+00:12:46.080 --> 00:12:51.840
+there currently aren't holes so this is a trick&nbsp;
+for you if you're in a very desperate situation&nbsp;&nbsp;
+
+00:12:52.400 --> 00:13:00.560
+you can get the leg of a resistor and coat it&nbsp;
+in a generous amount of flux as well as the PCB
+
+00:13:03.120 --> 00:13:08.480
+you can then heat up the pad you want to make&nbsp;
+it sure it's very hot all the way through the&nbsp;&nbsp;
+
+00:13:08.480 --> 00:13:14.720
+view and to the other side and then while&nbsp;
+still heating it put the resistor leg&nbsp;&nbsp;
+
+00:13:14.720 --> 00:13:22.640
+in, you want to make sure to get it in all the way&nbsp;
+and then once you've got it in make sure to keep&nbsp;&nbsp;
+
+00:13:22.640 --> 00:13:29.280
+moving it and keep adding heat moving it up&nbsp;
+and down until you get the entire leg coated in&nbsp;&nbsp;
+
+00:13:29.280 --> 00:13:36.000
+the solder to pick up as much solder as possible&nbsp;
+and then inevitably when it cools down just keep&nbsp;&nbsp;
+
+00:13:36.000 --> 00:13:42.800
+moving it especially in a circular motion and&nbsp;
+that will make sure that the solder does not&nbsp;&nbsp;
+
+00:13:43.360 --> 00:13:50.160
+bond with the resistor leg so now&nbsp;
+you have a resistor stuck in the PCB 
+
+00:13:50.160 --> 00:13:57.040
+but now the PCB has a hole in it so just move it&nbsp;
+up and down like a file and eventually it will&nbsp;&nbsp;
+
+00:13:57.040 --> 00:14:05.120
+come loose although you do have to be very careful&nbsp;
+not to damage the inner coating of the via that&nbsp;&nbsp;
+
+00:14:05.120 --> 00:14:10.560
+can be quite fragile and if you damage it then&nbsp;
+that will be a very difficult repair however if&nbsp;&nbsp;
+
+00:14:10.560 --> 00:14:17.600
+you're in a bind that can be quite a good way to&nbsp;
+get a through hole hole back to uh being able to&nbsp;&nbsp;
+
+00:14:17.600 --> 00:14:24.320
+put a DIP package in and it looks like this&nbsp;
+has turned out reasonably well certainly not my&nbsp;&nbsp;
+
+00:14:24.320 --> 00:14:29.840
+finest work but for today in a washing machine&nbsp;
+that's already 10 years old it should be fine&nbsp;&nbsp;
+
+00:14:30.720 --> 00:14:37.200
+so putting that package in now and&nbsp;
+just soldering it on the other side&nbsp;&nbsp;
+
+00:14:38.880 --> 00:14:48.080
+uh yeah turned out well enough. And so I remember&nbsp;
+that I've repaired this in the future I'm going to&nbsp;&nbsp;
+
+00:14:48.080 --> 00:14:54.960
+also put a nice purple dot on it and then I think&nbsp;
+we can plug it in and test whether or not it works&nbsp;&nbsp;
+
+00:14:54.960 --> 00:15:04.000
+and so if it plugged back in it's now consuming&nbsp;
+significantly less power down from 18.8 to 14.2&nbsp;&nbsp;
+
+00:15:04.960 --> 00:15:13.600
+and that hot spot is now completely gone and&nbsp;
+we can see that that chip is no longer at&nbsp;&nbsp;
+
+00:15:13.600 --> 00:15:22.160
+the scorching 128 degrees it's now a much more&nbsp;
+tame at 51.8 and this is after 20 minutes normally&nbsp;&nbsp;
+
+00:15:22.160 --> 00:15:28.560
+it would turn itself off due to overheating after&nbsp;
+about five minutes and putting it on for a cycle&nbsp;&nbsp;
+
+00:15:29.280 --> 00:15:40.080
+we can see it works perfectly fine now so I think&nbsp;
+we fixed it however you should know by now that&nbsp;&nbsp;
+
+00:15:40.080 --> 00:15:46.560
+me on this channel is not quite happy with just&nbsp;
+fixing something i want to know exactly why it has&nbsp;&nbsp;
+
+00:15:46.560 --> 00:15:51.360
+failed so we're going to be doing some destructive&nbsp;
+analysis on this chip to see if we can figure out&nbsp;&nbsp;
+
+00:15:51.360 --> 00:15:57.600
+why it's stopped working so with these sorts&nbsp;
+of plastic dip packages you can heat them up&nbsp;&nbsp;
+
+00:15:58.160 --> 00:16:05.680
+in this case to 400 degrees Celsius and chip&nbsp;
+away the plastic and expose the metal lead frame&nbsp;&nbsp;
+
+00:16:05.680 --> 00:16:12.880
+which you can peel back and you can then&nbsp;
+remove the silicon die however in this case&nbsp;&nbsp;
+
+00:16:12.880 --> 00:16:18.720
+400 degrees was not hot enough or I didn't let&nbsp;
+it dwell for long enough so I managed to crack the&nbsp;&nbsp;
+
+00:16:18.720 --> 00:16:25.040
+die so we're also going to be doing it to one of&nbsp;
+the newer chips from 2021 and I'm going to bump&nbsp;&nbsp;
+
+00:16:25.040 --> 00:16:32.800
+it up to 450 degrees and uh make sure it's nice&nbsp;
+and hot and uh that one yeah I managed to extract&nbsp;&nbsp;
+
+00:16:32.800 --> 00:16:40.320
+the die intact for that one so here we have the&nbsp;
+two dies I extracted from the two separate chips&nbsp;&nbsp;
+
+00:16:40.320 --> 00:16:46.720
+I was expecting there to actually be two separate&nbsp;
+dies in this chip for high voltage separation, 
+
+00:16:46.720 --> 00:16:53.280
+one for the control and one for the actual MOSFET but&nbsp;
+as it turns out it's just one big chip presumably&nbsp;&nbsp;
+
+00:16:53.280 --> 00:17:00.240
+that helps keep the cots down quite a lot&nbsp;
+unfortunately the chip that failed I didn't heat&nbsp;&nbsp;
+
+00:17:00.240 --> 00:17:05.600
+up enough and it has exploded everywhere although&nbsp;
+I managed to pick up some of the pieces I was&nbsp;&nbsp;
+
+00:17:05.600 --> 00:17:10.880
+hoping though that I would be able to get it out&nbsp;
+in one piece and we could have a nice smoking gun&nbsp;&nbsp;
+
+00:17:10.880 --> 00:17:16.400
+skid mark on the chip where the mosfet exploded&nbsp;
+or something really cool but unfortunately that's&nbsp;&nbsp;
+
+00:17:16.400 --> 00:17:23.360
+not going to happen today and the other chip I&nbsp;
+managed to extract intact however I don't know&nbsp;&nbsp;
+
+00:17:23.360 --> 00:17:28.320
+what happened I didn't get it hot enough but some&nbsp;
+of the plastic stuck to it so I have to chip that&nbsp;&nbsp;
+
+00:17:28.320 --> 00:17:36.800
+off and then sand it down although unfortunately&nbsp;
+I wasn't able to consistently sand it very well so&nbsp;&nbsp;
+
+00:17:36.800 --> 00:17:44.400
+part of the side has come off. Also here's the&nbsp;
+chip and the die appears to have been placed in&nbsp;&nbsp;
+
+00:17:44.400 --> 00:17:53.440
+this area here and in this orientation and that&nbsp;
+correlates to the solder marks on the lead&nbsp;&nbsp;
+
+00:17:53.440 --> 00:18:00.160
+frame as well as the thermal image and the wire&nbsp;
+bonding placement also makes sense for the pins&nbsp;&nbsp;
+
+00:18:02.000 --> 00:18:08.080
+so here are the two dies or at least what's left&nbsp;
+of one of them and the other one and we can see&nbsp;&nbsp;
+
+00:18:08.080 --> 00:18:14.720
+that there's two very obvious regions on the die&nbsp;
+one at the bottom for the quite large transistor&nbsp;&nbsp;
+
+00:18:15.440 --> 00:18:21.680
+and the area on the top presumably has all of the&nbsp;
+control electronics for that, there's quite a lot&nbsp;&nbsp;
+
+00:18:21.680 --> 00:18:27.520
+of it as well so let's have a closer look at these&nbsp;
+chips and see if we can find anything that might&nbsp;&nbsp;
+
+00:18:27.520 --> 00:18:34.400
+be wrong with them or sort of uh speculate as&nbsp;
+to what the failure mode could have been seeing&nbsp;&nbsp;
+
+00:18:34.400 --> 00:18:43.360
+as I lost half the other one so taking a look at&nbsp;
+the new chip we can see uh has a die marking here&nbsp;&nbsp;
+
+00:18:44.000 --> 00:18:51.040
+it appears to have the old Power Integrations&nbsp;
+logo as well as the copyright mask copyright&nbsp;&nbsp;
+
+00:18:51.040 --> 00:18:58.640
+of 2007 so this design definitely&nbsp;
+dates back to 2007 even in this newer chip&nbsp;&nbsp;
+
+00:18:59.440 --> 00:19:04.880
+and it appears to have been marking a "DS58F4"
+
+00:19:05.440 --> 00:19:12.080
+and that matches with the older chip as well that&nbsp;
+has failed so presumably the die has not changed&nbsp;&nbsp;
+
+00:19:12.080 --> 00:19:21.120
+between revisions there was also this other number&nbsp;
+on the top right of the new chip this is "DS58F"&nbsp;&nbsp;
+
+00:19:21.120 --> 00:19:28.160
+although the "4" is missing although I might&nbsp;
+have sanded that off but I don't think so&nbsp;&nbsp;
+
+00:19:29.520 --> 00:19:34.720
+but unfortunately on the chip that&nbsp;
+failed a nice little crack developed&nbsp;&nbsp;
+
+00:19:34.720 --> 00:19:38.560
+exactly where that number was so I guess&nbsp;
+we'll never know i couldn't find that&nbsp;&nbsp;
+
+00:19:38.560 --> 00:19:43.760
+shard in the pile of shards left over&nbsp;
+but I suspect it's probably the same
+
+00:19:46.080 --> 00:19:53.440
+and this here is one of the wire bonds for the&nbsp;
+transistor this is either the source or the drain&nbsp;&nbsp;
+
+00:19:53.440 --> 00:20:00.720
+however you'll note that the large transistor is&nbsp;
+actually separated into three separate transistors&nbsp;&nbsp;
+
+00:20:01.760 --> 00:20:08.560
+now this is important because I suspect this&nbsp;
+may actually be a failure mode that could happen&nbsp;&nbsp;
+
+00:20:09.440 --> 00:20:16.480
+looking at the wire bonds we can see that they're&nbsp;
+actually different between the two devices on the&nbsp;&nbsp;
+
+00:20:16.480 --> 00:20:23.680
+older device this is what the wire bonds look&nbsp;
+like there are directly bonded onto the main&nbsp;&nbsp;
+
+00:20:23.680 --> 00:20:32.320
+area of the lead frame whereas the newer device&nbsp;
+has a different style of wire bonding which is&nbsp;&nbsp;
+
+00:20:32.320 --> 00:20:38.800
+on one side of the lead frame so I'm&nbsp;
+wondering if maybe they had an issue with the&nbsp;&nbsp;
+
+00:20:39.440 --> 00:20:46.400
+wire bonds failing and maybe uh one of&nbsp;
+these transistor areas became unavailable&nbsp;&nbsp;
+
+00:20:46.400 --> 00:20:53.120
+which resulted in a high RDS(on) which caused the&nbsp;
+device to overheat and that's why they changed it&nbsp;&nbsp;
+
+00:20:53.840 --> 00:21:00.400
+maybe? But that really is just baseless&nbsp;
+speculation it could be as simple as&nbsp;&nbsp;
+
+00:21:00.400 --> 00:21:06.080
+they started manufacturing their chip at&nbsp;
+a different semiconductor fab house and&nbsp;&nbsp;
+
+00:21:06.080 --> 00:21:11.520
+they just had a different wirebond machine the&nbsp;
+lead frame is completely different unfortunately&nbsp;&nbsp;
+
+00:21:11.520 --> 00:21:16.880
+I've destroyed the lead frame in doing this and&nbsp;
+didn't take a picture of it but unfortunately&nbsp;&nbsp;
+
+00:21:16.880 --> 00:21:23.600
+seeing as I managed to destroy the die of&nbsp;
+the faulty device I guess we'll never know&nbsp;&nbsp;
+
+00:21:24.400 --> 00:21:31.360
+but I think that's a reasonable explanation&nbsp;
+so uh I guess thanks for watching and I'll&nbsp;&nbsp;
+
+00:21:31.360 --> 00:21:43.840
+leave you with some video of the die of the&nbsp;
+broken one it's pretty cool features in here.
+

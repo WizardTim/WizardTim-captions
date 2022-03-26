@@ -1,0 +1,12 @@
+AudioMoth Mode Switch Repair
+
+A simple method for repairing a sheared mode switch on an AudioMoth 1.0.0 without removing the battery holder.
+
+00:00 – Intro 
+01:30 – Repair
+04:48 – Outro
+
+https://octopart.com/css-1310tb-nidec+copal-77011270
+https://www.digikey.com/products/en?keywords=563-1095-1-ND
+
+REF: WT-YT-V-9

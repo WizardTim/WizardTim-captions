@@ -1,0 +1,17 @@
+Simpson Washing Machine SMPS Repair
+
+Repairing a broken Simpson (Electrolux) washing machine from 2010 with a faulty SMPS (Switch Mode Power Supply) followed by an in-depth failure analysis of the failed component and speculating as to possible failure modes.
+
+00:00 - Intro
+03:05 - Non-Isolated Design
+04:43 - Obvious Defect Visual Inspection
+06:03 -Thermal Imaging
+07:31 - Closer Look At Faulty Part
+10:38 - Ordering Replacement
+10:59 - Installing Replacement
+14:53 - Testing Repair
+15:35 - Failure Analysis
+
+
+
+REF:WT-YT-V-15

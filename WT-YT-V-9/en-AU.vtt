@@ -1,0 +1,185 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:06.560
+This here is an AudioMoth from Open Acoustic&nbsp;
+Devices, these devices are typically used for&nbsp;&nbsp;
+
+00:00:06.560 --> 00:00:12.080
+ecoacoustic applications as they can record&nbsp;
+ultrasound frequencies however they're useful&nbsp;&nbsp;
+
+00:00:12.080 --> 00:00:16.560
+in pretty much any application that involves&nbsp;
+recording over a large period of time.&nbsp;&nbsp;
+
+00:00:16.560 --> 00:00:23.200
+This particular unit is an AudioMoth 1.0 which has a&nbsp;
+bit of a problem in which the switch overhangs the&nbsp;&nbsp;
+
+00:00:23.200 --> 00:00:28.800
+PCB which makes it very accessible and easy to use&nbsp;
+however it leaves the switch rather vulnerable to&nbsp;&nbsp;
+
+00:00:28.800 --> 00:00:33.680
+breaking off like we see here on this one. And&nbsp;
+I should also mention that this is sometimes&nbsp;&nbsp;
+
+00:00:33.680 --> 00:00:38.880
+a problem with the [micro] SD card slot as well if you&nbsp;
+have a particularly tight custom enclosure it&nbsp;&nbsp;
+
+00:00:38.880 --> 00:00:45.840
+can snap the SD card. Now this problem has been&nbsp;
+fixed on the AudioMoth 1.1 and the new 1.2 as&nbsp;&nbsp;
+
+00:00:45.840 --> 00:00:51.360
+you see here the switch is recessed into the PCB&nbsp;
+and a number of other improvements have also been&nbsp;&nbsp;
+
+00:00:51.360 --> 00:00:57.840
+made such as lowering the noise floor and adding&nbsp;
+an external microphone jack however the old 1.0&nbsp;&nbsp;
+
+00:00:58.480 --> 00:01:04.560
+PCB is still perfectly fine for pretty much all&nbsp;
+applications so I'd like to fix this one here&nbsp;&nbsp;
+
+00:01:04.560 --> 00:01:11.200
+today and show you as well how to do it. There is&nbsp;
+actually a post on the [Open Acoustic Devices] forum page&nbsp;&nbsp;
+
+00:01:11.200 --> 00:01:17.360
+about another person who's also fixed a broken&nbsp;
+switch however their approach involves taking&nbsp;&nbsp;
+
+00:01:17.360 --> 00:01:22.880
+off the battery holder which requires you to&nbsp;
+desolder it and well I don't particularly want to&nbsp;&nbsp;
+
+00:01:22.880 --> 00:01:27.040
+do that and I imagine a lot of other people don't&nbsp;
+particularly want to have to desolder it as well&nbsp;&nbsp;
+
+00:01:27.040 --> 00:01:32.000
+so I'm going to show you here how to do it without&nbsp;
+desoldering anything this here is the switch&nbsp;&nbsp;
+
+00:01:32.000 --> 00:01:40.868
+that's used on the AudioMoth it's a Nidec Copal 
+series CSS1310, you can get this from pretty much any
+
+00:01:40.868 --> 00:01:46.473
+electronics component supplier such as Digi-Key&nbsp;
+or Farnell or element14 or Mouser 
+
+00:01:46.473 --> 00:01:49.453
+and in some cases you can even find it on eBay.
+
+00:01:49.453 --> 00:01:56.240
+So i'll leave&nbsp;some links in the description below if you want to get them just keep in mind that wherever you&nbsp;are in the world shipping might be more expensive&nbsp;&nbsp;
+
+00:01:56.240 --> 00:02:05.561
+than the switches themselves so shop around. 
+Now&nbsp;if we take a look at the switch we can see that there's three major components to it there's the&nbsp;plastic black body 
+
+00:02:05.561 --> 00:02:14.960
+as well as the white sliding&nbsp;element along with a metal clip that retains this&nbsp;
+we want to unclip this metal retaining bracket&nbsp;&nbsp;
+
+00:02:14.960 --> 00:02:20.703
+and we can do this by just putting in a metal&nbsp;
+spudger underneath the clip and levering it up...
+
+00:02:23.493 --> 00:02:30.533
+on either sides and then just pulling it out like&nbsp;
+this and today we're going to use both the slider&nbsp;&nbsp;
+
+00:02:30.560 --> 00:02:36.000
+nub as well as the metal retaining bracket&nbsp;
+however don't throw out the plastic black&nbsp;&nbsp;
+
+00:02:36.000 --> 00:02:40.640
+body just in case you need it one day put it&nbsp;
+back with the other switches. Now to remove&nbsp;&nbsp;
+
+00:02:40.640 --> 00:02:47.120
+the old switch we have to remove this bracket&nbsp;
+however it's very difficult to try and unclip it&nbsp;&nbsp;
+
+00:02:47.120 --> 00:02:51.760
+so we're going to try and cut it in half. 
+So&nbsp;I've just got a pair of old tweezers that I
+
+00:02:51.760 --> 00:02:57.760
+don't care about bending and I'm going to shove it&nbsp;
+in here and bend up so that we can cut it in half.
+
+00:03:03.680 --> 00:03:07.760
+And now that I've bent it up sufficiently I
+can just cut it with a pair of side cutters
+
+00:03:15.040 --> 00:03:20.160
+and with it cut I can get a lot more leverage on&nbsp;
+it with the side cutters now so I can pull it up&nbsp;&nbsp;
+
+00:03:20.160 --> 00:03:26.160
+even further and get the other side up where I can&nbsp;
+cut it and that also just cut pretty much the same
+
+00:03:29.680 --> 00:03:35.680
+and now if it cut it's much much easier to&nbsp;
+just remove it and we can remove both parts&nbsp;&nbsp;
+
+00:03:35.680 --> 00:03:40.560
+and remove the sliding element and this is also&nbsp;
+a good opportunity to give it a little bit of&nbsp;&nbsp;
+
+00:03:40.560 --> 00:03:45.360
+a clean as well. Now in order to get the new&nbsp;
+metal bracket on you'll notice that there's&nbsp;&nbsp;
+
+00:03:45.360 --> 00:03:50.400
+two little pins at the bottom these are to give&nbsp;
+it some extra strength and hold it in place&nbsp;&nbsp;
+
+00:03:50.400 --> 00:03:56.080
+however we're not going to be able to put that&nbsp;
+on because it's already mounted to the PCB and&nbsp;&nbsp;
+
+00:03:56.080 --> 00:04:00.720
+the battery holder is in the way so we're just&nbsp;
+going to cut it off with a pair of side cutters&nbsp;&nbsp;
+
+00:04:00.720 --> 00:04:05.200
+now this thing is, I'm pretty sure it's made of&nbsp;
+steel so it is actually rather difficult to cut so&nbsp;&nbsp;
+
+00:04:05.200 --> 00:04:10.320
+you probably don't want to use your good pair of&nbsp;
+side cutters and make sure when you do cut them to&nbsp;&nbsp;
+
+00:04:10.320 --> 00:04:15.440
+cover them with your fingers so that the pieces of&nbsp;
+metal don't go flying into your eye or somewhere&nbsp;&nbsp;
+
+00:04:15.440 --> 00:04:20.960
+around the room. Now with all that done it's just&nbsp;
+a matter of putting the switch back together so&nbsp;&nbsp;
+
+00:04:20.960 --> 00:04:27.840
+you can just drop the new sliding element back in&nbsp;
+and then you can put the metal bracket back on top...
+
+00:04:37.120 --> 00:04:41.840
+...and push down on it and you'll hear two&nbsp;
+distinctive clicks to know it's locked in place&nbsp;&nbsp;
+
+00:04:42.400 --> 00:04:47.440
+and that's pretty much it should be good to&nbsp;
+go we can see the switch works perfectly now.&nbsp;&nbsp;
+
+00:04:49.200 --> 00:04:55.840
+So as always thanks for watching
+

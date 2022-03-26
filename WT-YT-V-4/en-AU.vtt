@@ -1,0 +1,504 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.640 --> 00:00:05.640
+This is the ubiquitous TO-220
+through-hole package that I'm sure we're all familiar with.
+
+00:00:05.640 --> 00:00:12.300
+This device in particular is the popular 1117 low-drop-out voltage regulator
+
+00:00:12.300 --> 00:00:15.440
+manufactured by ST. And the first thing you're probably
+
+00:00:15.440 --> 00:00:17.600
+going to calculate when using one of
+these
+
+00:00:17.600 --> 00:00:22.960
+is the thermal performance and so the
+data sheet here gives us these figures
+
+00:00:22.960 --> 00:00:28.800
+for the package thermal resistances. With
+this here junction to ambient figure we
+
+00:00:28.800 --> 00:00:32.239
+can calculate the die temperature for a
+given amount of power
+
+00:00:32.239 --> 00:00:37.360
+or conversely the power at which the
+regulator reaches Tj max.
+
+00:00:37.360 --> 00:00:41.280
+So as you can see calculating the
+thermal performance of this package when
+
+00:00:41.280 --> 00:00:44.320
+free standing
+is very easy and the numbers you get are
+
+00:00:44.320 --> 00:00:48.960
+quite often very close to reality.
+But of course the big advantage of using
+
+00:00:48.960 --> 00:00:53.520
+a TO-220 style device is the fact that
+it can be bolted to an external heatsink
+
+00:00:53.520 --> 00:00:57.360
+which allows it to dissipate
+significantly more than 2 watts
+
+00:00:57.360 --> 00:01:01.280
+or simply just operate at a lower
+temperature and extend its life.
+
+00:01:01.280 --> 00:01:04.960
+So this here is a pretty standard
+stamped copper heatsink from AAVID Thermology
+
+00:01:04.960 --> 00:01:08.320
+and looking at the data sheet for this
+
+00:01:08.320 --> 00:01:11.520
+we find
+a nice little graph here which is quite
+
+00:01:11.520 --> 00:01:15.119
+common amongst heatsinks
+although i wish manufacturers would use
+
+00:01:15.119 --> 00:01:19.840
+meters per second
+not US customary feet per minute.
+
+00:01:19.840 --> 00:01:23.920
+But using this line here we can find how
+hot our heatsink will get for a given
+
+00:01:23.920 --> 00:01:27.840
+amount of power dissipated with
+convection cooling only
+
+00:01:27.840 --> 00:01:32.079
+or if we have forced airflow we can use
+this other line to get a thermal
+
+00:01:32.079 --> 00:01:36.320
+resistance to ambient figure.
+Doing the calculations again but instead
+
+00:01:36.320 --> 00:01:39.680
+for this configuration
+we can easily show that this will reduce
+
+00:01:39.680 --> 00:01:43.520
+the die temperature
+at 2 watts to significantly less than Tj max.
+
+00:01:43.520 --> 00:01:46.720
+So doing this kind of thermal design
+
+00:01:46.720 --> 00:01:50.640
+calculations with this TO-220
+through-hole part is pretty easy and
+
+00:01:50.640 --> 00:01:54.079
+straightforward.
+Instead you should be worrying about
+
+00:01:54.079 --> 00:01:56.479
+making sure you have the correct
+mounting force
+
+00:01:56.479 --> 00:02:01.119
+or whether or not you're placing it next
+to a wet electrolytic capacitor.
+
+00:02:01.119 --> 00:02:05.280
+But what about this same 1117
+regulator but instead from
+
+00:02:05.280 --> 00:02:08.640
+Advanced Monolithic Systems and in this 
+SOT-223 package
+
+00:02:08.640 --> 00:02:13.040
+how do we do the same calculations. Well
+looking at the datasheet again we see
+
+00:02:13.040 --> 00:02:16.400
+thermal resistance numbers
+but with this asterisk; thermal
+
+00:02:16.400 --> 00:02:20.319
+resistance depends on the size of copper
+area connected to the case tab.
+
+00:02:20.319 --> 00:02:24.560
+Okay that makes sense seeing as the
+tab is soldered to the PCB
+
+00:02:24.560 --> 00:02:27.680
+and it's not like there's a bolt hole
+you can connect the heatsink to.
+
+00:02:27.680 --> 00:02:31.840
+And so if we look further we see that
+they've given us a nice little table of
+
+00:02:31.840 --> 00:02:35.440
+thermal resistances
+for several different sizes of copper
+
+00:02:35.440 --> 00:02:38.640
+areas and well this looks easy enough to
+calculate
+
+00:02:38.640 --> 00:02:44.000
+and it actually is. However, the problem
+comes when you actually come to apply
+
+00:02:44.000 --> 00:02:48.080
+this
+let's look here at this PCB and well
+
+00:02:48.080 --> 00:02:51.519
+what here counts towards our copper area
+what
+
+00:02:51.519 --> 00:02:54.560
+parts will actually provide useful heat
+sinking
+
+00:02:54.560 --> 00:02:58.319
+I mean all this copper here in the
+ground plate probably counts right?
+
+00:02:58.319 --> 00:03:02.000
+There's only these little tiny gaps
+between the copper areas here between
+
+00:03:02.000 --> 00:03:07.680
+the power rail and the ground plane
+and well I see regulators on PCBs like
+
+00:03:07.680 --> 00:03:10.959
+this all the time
+that just use the minimum footprint size
+
+00:03:10.960 --> 00:03:15.360
+with the ground plane surrounding it
+I mean the thermal resistance of the pcb
+
+00:03:15.360 --> 00:03:19.520
+can't be that bad right?
+I mean look here we've got copper at 400
+
+00:03:19.520 --> 00:03:25.060
+watts per meter kelvin and
+going down, oh, ohhhhhh...
+
+00:03:25.060 --> 00:03:27.400
+okay yeah this might be a problem.
+
+00:03:28.620 --> 00:03:31.640
+So
+this here is a PCB I designed back in
+
+00:03:31.640 --> 00:03:35.280
+2016
+I made it for fun to see if I could make
+
+00:03:35.280 --> 00:03:39.840
+my own multiplexed LED matrix
+and I'm pretty proud of it I was even
+
+00:03:39.840 --> 00:03:44.959
+able to get the entire LED matrix on
+one layer because I used the LED leads
+
+00:03:44.959 --> 00:03:48.159
+themselves as jumpers across the common anode lines
+
+00:03:48.159 --> 00:03:52.560
+useful little trick for you however
+today we're interested in it because on
+
+00:03:52.560 --> 00:03:57.040
+the back of it we have the same
+AMS1117 regulator with a nice
+
+00:03:57.040 --> 00:04:01.200
+little PCB heatsink.
+Now at full brightness this regulator
+
+00:04:01.200 --> 00:04:04.000
+dissipates
+less than a quarter of a watt so this
+
+00:04:04.000 --> 00:04:08.319
+heatsink is plenty big enough.
+However I have here a spare PCB that
+
+00:04:08.319 --> 00:04:11.680
+I've repurposed as a thermal test board
+and I've been
+
+00:04:11.680 --> 00:04:15.760
+abusing it just a little bit. By the way
+if you've ever wondered what happens to
+
+00:04:15.760 --> 00:04:18.639
+a 1206
+quarter watt resistor when you put
+
+00:04:18.640 --> 00:04:24.480
+several watts through it
+for a little bit too long yeah don't do it.
+
+00:04:24.480 --> 00:04:26.880
+So we're going to use this
+PCB
+
+00:04:26.880 --> 00:04:31.199
+to test our theory to see whether or not
+these little gaps actually do anything
+
+00:04:31.199 --> 00:04:34.720
+currently I have the board under the
+thermal camera now
+
+00:04:34.720 --> 00:04:38.720
+and I've got the output loaded down so
+it will dissipate about one and a
+
+00:04:38.720 --> 00:04:42.720
+quarter watts
+and when we turn it on we instantly see
+
+00:04:42.720 --> 00:04:45.680
+the temperature rise.
+
+00:04:48.720 --> 00:04:52.880
+Okay now that it's reached steady state
+we can clearly see the outline of that
+
+00:04:52.880 --> 00:04:56.479
+copper area directly connected to the
+package tab
+
+00:04:56.479 --> 00:05:00.720
+so unfortunately that means the
+temperature drop across this little gap
+
+00:05:00.720 --> 00:05:03.840
+here is
+rather significant so that's definitely
+
+00:05:03.840 --> 00:05:08.320
+going to have an effect on how much heat
+is conducted into this ground plane and
+
+00:05:08.320 --> 00:05:10.000
+it's probably not as much as I would
+have liked.
+
+00:05:10.000 --> 00:05:13.759
+And of course if we push this
+device even further
+
+00:05:13.760 --> 00:05:19.240
+to dissipate several watts we can see
+this little heatsink is never gonna save it.
+
+00:05:19.240 --> 00:05:21.280
+And so this brings us to the part where
+
+00:05:21.280 --> 00:05:24.080
+I screwed it all up with my thermal
+design and
+
+00:05:24.080 --> 00:05:29.680
+roasted some LEDs. This here
+is a modular LED panel I designed back
+
+00:05:29.680 --> 00:05:33.680
+in 2018
+before I had a thermal camera and before
+
+00:05:33.680 --> 00:05:37.280
+I knew
+these gaps were a big problem for SMT design.
+
+00:05:37.280 --> 00:05:41.600
+This thing is pretty simple it
+takes 12 volts and steps it down to a
+
+00:05:41.600 --> 00:05:46.160
+constant current for the LEDs
+with near zero flicker and the
+
+00:05:46.160 --> 00:05:48.720
+brightness is controlled with this
+potentiometer.
+
+00:05:48.720 --> 00:05:52.800
+I actually use three of these panels on
+a shared heatsink above me
+
+00:05:52.800 --> 00:05:56.000
+for filming and reference photography
+and at
+
+00:05:56.000 --> 00:06:00.639
+10 watts per panel I get about a
+1,000 lux here with them all at 50%
+
+00:06:00.639 --> 00:06:05.520
+which is more than enough. So overall I'm
+happy with them and all of the files are
+
+00:06:05.520 --> 00:06:09.120
+on GitHub if you're interested
+although you might not want to use them
+
+00:06:09.120 --> 00:06:13.759
+after I show you the problem it has.
+If we look here at the LED side of the
+
+00:06:13.759 --> 00:06:16.080
+traces
+we see the pads of the LEDs are
+
+00:06:16.080 --> 00:06:20.160
+connected to these big traces
+and when designing it I paid extra
+
+00:06:20.160 --> 00:06:23.360
+special attention
+to length matching these traces to
+
+00:06:23.360 --> 00:06:28.479
+equally drive the LEDs.
+But I just assume these little gaps here
+
+00:06:28.479 --> 00:06:33.039
+between the traces in the ground plane
+wouldn't be a big contributor to thermal
+
+00:06:33.039 --> 00:06:36.639
+problems
+I even had plenty of vias to transfer
+
+00:06:36.639 --> 00:06:41.199
+heat to the other side of the board
+but again here I have the same problem
+
+00:06:41.199 --> 00:06:46.160
+with traces and gaps in the ground plane.
+I was assuming that this would be enough
+
+00:06:46.160 --> 00:06:49.919
+to transfer
+heat out of the PCB and into the
+
+00:06:49.919 --> 00:06:52.800
+heatsink
+and well I was kind of correct it
+
+00:06:52.800 --> 00:06:56.639
+doesn't instantly catch fire
+but, I definitely could have done a lot
+
+00:06:56.639 --> 00:06:59.599
+better and not needed to actively cool
+the heatsink
+
+00:06:59.600 --> 00:07:02.340
+if I had designed it just a little
+different.
+
+00:07:02.340 --> 00:07:05.080
+So I have the LED side of the PCB
+
+00:07:05.080 --> 00:07:07.120
+now under the thermal
+camera and
+
+00:07:07.120 --> 00:07:13.160
+turning it on yeah we see the gaps are
+definitely a problem here as well.
+
+00:07:16.880 --> 00:07:20.000
+And now at steady state we can see this
+thing has
+
+00:07:20.000 --> 00:07:24.560
+big problems running at 100%. Now remember
+this thermal camera
+
+00:07:24.560 --> 00:07:29.360
+can only show us the temperature of the
+top of the phosphor of this LED
+
+00:07:29.360 --> 00:07:32.800
+and that's at 112 °C that's
+not the die temperature
+
+00:07:32.800 --> 00:07:37.680
+the die temperature is
+definitely over Tj max which is 115 °C
+
+00:07:37.680 --> 00:07:41.199
+so this LED is definitely having a short life.
+
+00:07:41.199 --> 00:07:43.840
+And again we see the heat isn't
+
+00:07:43.840 --> 00:07:46.560
+conducted very well across this gap, heat
+is still
+
+00:07:46.560 --> 00:07:50.319
+transferred but it's nowhere near as
+good as it could be
+
+00:07:50.319 --> 00:07:53.840
+taking a look at the other side of the
+PCB now
+
+00:07:53.840 --> 00:07:57.840
+and we can see the vias are doing a
+great job at transferring heat through
+
+00:07:57.840 --> 00:08:02.560
+the PCB to the other side
+however we have the same problem.
+
+00:08:02.560 --> 00:08:05.680
+And this side we're relying on the copper
+area
+
+00:08:05.680 --> 00:08:10.000
+to spread out the heat so it can be
+transferred through more surface area to
+
+00:08:10.000 --> 00:08:13.680
+the heatsink and it's definitely not
+doing a good job at that.
+
+00:08:13.680 --> 00:08:16.720
+So I hope you've learned something
+useful here so you don't have to go
+
+00:08:16.720 --> 00:08:19.199
+through the same mistakes i did to learn
+this.
+
+00:08:19.199 --> 00:08:27.840
+So as always thanks for watching.     :)
+
