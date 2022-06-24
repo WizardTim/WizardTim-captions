@@ -5,7 +5,7 @@ Repairing a broken Simpson (Electrolux) washing machine from 2010 with a faulty 
 00:00 - Intro
 03:05 - Non-Isolated Design
 04:43 - Obvious Defect Visual Inspection
-06:03 -Thermal Imaging
+06:03 - Thermal Imaging
 07:31 - Closer Look At Faulty Part
 10:38 - Ordering Replacement
 10:59 - Installing Replacement
