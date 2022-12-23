@@ -1,0 +1,1063 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:00.399
+English (AU) (Spoken) [Manually Transcribed Captions]
+github.com/WizardTim/WizardTim-captions
+
+00:00:00.399 --> 00:00:05.800
+So today we're going to be taking a quick
+look at this here PIR sensor manufactured
+
+00:00:05.800 --> 00:00:11.170
+by HPM, specifically a XL632 model.
+
+00:00:11.170 --> 00:00:16.510
+This PIR sensor failed several years ago so
+unfortunately I no longer have the plastic
+
+00:00:16.510 --> 00:00:21.840
+case it goes in although I was able to find
+this here picture on the internet although
+
+00:00:21.840 --> 00:00:25.490
+rather pixelated it shows what it used to
+look like.
+
+00:00:25.490 --> 00:00:31.170
+In addition I also found the original manual
+that it came with and it's filled with all
+
+00:00:31.170 --> 00:00:36.469
+sorts of fantastic stuff such as this here
+usage artwork, as well as some quite useful
+
+00:00:36.469 --> 00:00:42.200
+information about how to use PIR sensors as
+well as how to place them and what their sort
+
+00:00:42.200 --> 00:00:46.830
+of limitations are and what sort of
+loads you can and can't connect to it.
+
+00:00:46.830 --> 00:00:52.100
+So here's all of the internal circuitry from
+it that I kept and we'll have a look at how
+
+00:00:52.100 --> 00:00:56.730
+it failed and how it failed in a not so nice
+way that it came a little too close to maybe
+
+00:00:56.730 --> 00:00:58.370
+causing a fire.
+
+00:00:58.370 --> 00:01:04.150
+So first of all we can see that the PCB is
+split into two separate PCBs the top one has
+
+00:01:04.150 --> 00:01:11.380
+all of the low voltage sensing circuitry including
+the actual PIR pyro-element and the other
+
+00:01:11.380 --> 00:01:17.400
+PCB has all of the power electronics including
+the power supply and whatever is switching
+
+00:01:17.400 --> 00:01:19.020
+the load.
+
+00:01:19.020 --> 00:01:24.409
+And of course clear as day we can see this
+here three pin cable between the two of them
+
+00:01:24.409 --> 00:01:30.400
+that certainly seen better days and was on
+the verge of catching fire as well as this
+
+00:01:30.400 --> 00:01:34.869
+here power PCB that is heavily discolored.
+
+00:01:34.869 --> 00:01:40.450
+So taking a look at this here power PCB we
+can see that there's all sorts of power devices
+
+00:01:40.450 --> 00:01:49.160
+that you see in this sort of thing we have
+this here TO-220 device which is a BTB08 this
+
+00:01:49.160 --> 00:01:55.400
+is a triac which is what switches the load
+it's a triac instead of a relay because these
+
+00:01:55.400 --> 00:02:01.150
+PIR sensors quite often turn on and off so
+you want it to have a very long lifetime and
+
+00:02:01.150 --> 00:02:07.979
+a relay which is mechanical doesn't last as
+many cycles as a triac.
+
+00:02:07.979 --> 00:02:15.379
+We also have a bridge rectifier here as well
+as a rather large maybe two/three watt resistor
+
+00:02:15.379 --> 00:02:21.940
+next to it so we can assume that this device
+uses a resistive dropper there is an inductor
+
+00:02:21.940 --> 00:02:28.720
+as well as a capacitor however these are just
+across mains as well as in series with the
+
+00:02:28.720 --> 00:02:35.090
+load presumably to just come in compliance
+with EMI and RF emission requirements.
+
+00:02:35.090 --> 00:02:42.450
+There's also a whole heap of transistors as
+well as capacitors and resistors splattered
+
+00:02:42.450 --> 00:02:48.720
+across the PCB these are mostly just to drive
+the triac by the looks of it although I couldn't
+
+00:02:48.720 --> 00:02:54.030
+really be bothered to fully reverse engineer
+this thing that's probably what they do.
+
+00:02:54.030 --> 00:02:59.250
+So taking a closer look at the discolored
+area of the PCB we can see it's around the
+
+00:02:59.250 --> 00:03:05.660
+dropper resistor and one of the leads has
+completely delaminated from the single-sided
+
+00:03:05.660 --> 00:03:12.230
+PCB just completely lifting the pad and this
+solder joint looks more like a cowpat than
+
+00:03:12.230 --> 00:03:17.400
+a solder joint so I think it's fair enough
+to say that this is where the failure happened
+
+00:03:17.400 --> 00:03:23.310
+and it stopped working because it's certainly
+been quite hot around here on this PCB and
+
+00:03:23.310 --> 00:03:27.980
+we can also see that the other leg of this
+dropper resistor has also started to lift
+
+00:03:27.980 --> 00:03:35.409
+off the PCB as well as this here transistor
+as well as all the way up the PCB over to
+
+00:03:35.409 --> 00:03:41.519
+here between these two pins where another
+power resistor is I'm not quite sure what
+
+00:03:41.519 --> 00:03:47.370
+this power resistor does but it looks to be
+a one watt resistor.
+
+00:03:47.370 --> 00:03:52.650
+By the way these two resistors still measure
+their correct value as marked on their colour
+
+00:03:52.650 --> 00:04:00.870
+codes so we can assume that this high temperature
+high dissipation is not a result of long-term
+
+00:04:00.870 --> 00:04:08.840
+use causing the resistance to drift but is
+instead a should I call it a design flaw that's
+
+00:04:08.840 --> 00:04:14.730
+caused too much dissipation which this resistor
+really hasn't been able to dissipate correctly
+
+00:04:14.730 --> 00:04:18.560
+without damaging the PCB and surrounding components.
+
+00:04:18.560 --> 00:04:23.760
+Now of course I'm not going to attempt to
+repair on this sensor it's really just not
+
+00:04:23.760 --> 00:04:30.479
+worth it the PCB is quite badly damaged with
+all of this heat exposure as well as the fact
+
+00:04:30.479 --> 00:04:35.690
+this happened several years ago this sensor
+has already been replaced however we can still
+
+00:04:35.690 --> 00:04:38.540
+tear it down and learn something from it.
+
+00:04:38.540 --> 00:04:43.289
+So let's take a look at the other PCB this
+here is the cable that connects between the
+
+00:04:43.289 --> 00:04:50.350
+two of them it's three conductors inside and
+as you can see it's quite heavily burnt presumably
+
+00:04:50.350 --> 00:04:55.479
+this is just going to be ground, power and
+the triac on off this thing doesn't do any
+
+00:04:55.479 --> 00:04:57.789
+sort of dimming.
+
+00:04:57.789 --> 00:05:02.710
+And here is of course the actual sensor PCB
+there's actually quite a lot on here we've
+
+00:05:02.710 --> 00:05:11.889
+got three SOIC devices first of all we have
+a 27L2C which is a low power CMOS dual operational
+
+00:05:11.889 --> 00:05:19.960
+amplifier we also have the jelly bean LM393
+dual comparator and of course no design is
+
+00:05:19.960 --> 00:05:26.230
+complete without the ubiquitous 555 general
+purpose timer and this PCB of course has a
+
+00:05:26.230 --> 00:05:31.900
+smattering of passives such as resistance
+capacitors as well as some active transistors
+
+00:05:31.900 --> 00:05:37.870
+some diodes and well that's it there's no
+fancy microcontrollers on here however that's
+
+00:05:37.870 --> 00:05:42.889
+a rather surprising number of components for
+a PIR sensor these days, these days you'll
+
+00:05:42.889 --> 00:05:48.480
+just see everything implemented in a single
+custom chip as well as significantly fewer
+
+00:05:48.480 --> 00:05:49.480
+passives.
+
+00:05:49.480 --> 00:05:55.870
+I'll also mention that these are custom BISS
+chips meant for PIR sensors have also been
+
+00:05:55.870 --> 00:06:03.690
+reused for these fancy radar sensors that
+sort of replace PIR sensors in certain applications
+
+00:06:03.690 --> 00:06:08.509
+these BISS chips certainly weren't intended
+for this sort of application but some rather
+
+00:06:08.509 --> 00:06:13.740
+fancy magic and wizardry has made this possible
+these things are rather impressive how they
+
+00:06:13.740 --> 00:06:16.880
+managed to get this all done for such a low
+cost.
+
+00:06:16.880 --> 00:06:21.669
+And of course on the other side of this PCB
+is not much special this the electrolytic
+
+00:06:21.669 --> 00:06:28.169
+capacitors for timing and power supply regulation
+there's these two potentiometers to set the
+
+00:06:28.169 --> 00:06:33.630
+time delay as well as the sensitivity there's
+one of these cadmium sulphide (CdS) photosensors
+
+00:06:33.630 --> 00:06:38.889
+for day night sensing but of course there's
+also the pyroelectric sensor right here in
+
+00:06:38.889 --> 00:06:40.370
+this metal can.
+
+00:06:40.370 --> 00:06:44.819
+And that's actually why I'm making this video
+today to take a closer look at these metal
+
+00:06:44.819 --> 00:06:49.599
+cans there is actually quite a lot of information
+on the internet about these plenty of people
+
+00:06:49.599 --> 00:06:55.039
+will tell you how to use them, like Dave Jones
+from the EEVblog has a great view about how
+
+00:06:55.039 --> 00:07:01.539
+to use them and how they work as well as bigclive
+who quickly brushes on how they work inside
+
+00:07:01.539 --> 00:07:07.410
+however I haven't found any good pictures
+or any good materials about exactly what's
+
+00:07:07.410 --> 00:07:13.230
+inside them and how it's all sort of constructed
+inside so I want to take a closer look and
+
+00:07:13.230 --> 00:07:16.040
+actually open one of these up.
+
+00:07:16.040 --> 00:07:21.139
+First of all just cut off the metal can from
+the PCB we can just rip it off with some side
+
+00:07:21.139 --> 00:07:28.139
+cutters don't need to be careful about this
+PCB and here is the actual sensor it's marked
+
+00:07:28.139 --> 00:07:35.250
+KDS9 [5E1] and it has this nice little window
+which is probably made of silicon to pass
+
+00:07:35.250 --> 00:07:43.400
+the long wave infrared now unfortunately these
+markings didn't really return anything however
+
+00:07:43.400 --> 00:07:49.509
+after looking quite a while I found this data
+sheet from Murata I suspect that this is the
+
+00:07:49.509 --> 00:07:53.490
+device just based on the wording that they
+use when they talk about the manufacturing
+
+00:07:53.490 --> 00:08:00.750
+technique but we can see either way the sort
+of stuff that should be inside there is down
+
+00:08:00.750 --> 00:08:06.970
+here a ‘pyroelectric element’ which has
+two pieces and it's in this sort of configuration
+
+00:08:06.970 --> 00:08:12.039
+which is exactly what other people say is
+inside these on the internet so taking an
+
+00:08:12.039 --> 00:08:17.449
+old pair of side cutters to the silicon window
+we can just break that and get one of the
+
+00:08:17.449 --> 00:08:23.860
+blades in and start cutting the metal can
+and just clear out the shrapnel and soon enough
+
+00:08:23.860 --> 00:08:29.759
+peel all of that back and here's the actual
+internals and we can see that this is actually
+
+00:08:29.759 --> 00:08:35.070
+a ceramic hybrid module which is exactly what
+that data sheet mentioned before about construction
+
+00:08:35.070 --> 00:08:40.600
+technology so we can see here there is this
+thick film resistor here which is the same
+
+00:08:40.600 --> 00:08:47.300
+as in the datasheet schematic as well as the
+pyroelectric element here and of course it
+
+00:08:47.300 --> 00:08:53.690
+has three pins and it's got a sort of matte
+finish on it and it's rather interesting uh
+
+00:08:53.690 --> 00:09:00.779
+it's sort of like a PTC device in its appearance
+I guess because well it is a piezoelectric
+
+00:09:00.779 --> 00:09:06.860
+device at the end of the day umm it's still
+rather interesting because we'll it's quite
+
+00:09:06.860 --> 00:09:14.180
+thick umm… actually it's *exhale* I don't
+really understand this though it's doesn't
+
+00:09:14.180 --> 00:09:18.970
+really make any sense it's really thick I
+guess it must have really low thermal connectivity
+
+00:09:18.970 --> 00:09:25.370
+because of course there's very little energy
+coming in from the infrared umm… actually
+
+00:09:25.370 --> 00:09:31.220
+looking at this this really doesn't make sense
+umm… actually where's the transistor in
+
+00:09:31.220 --> 00:09:34.780
+this um that was meant to be a trans… have
+I been lied to?
+
+00:09:34.780 --> 00:09:37.500
+Is what, what is going on here?
+
+00:09:37.500 --> 00:09:41.970
+What's with these two pads here there definitely
+was something…
+
+00:09:41.970 --> 00:09:42.970
+Wait a minute!
+
+00:09:42.970 --> 00:09:50.470
+This looks suspiciously like a upside down
+SOT-23 transistor uh let me get my spudger
+
+00:09:50.470 --> 00:10:00.420
+in here and brute force it open and sure enough
+we can see that there's a lead frame inside.
+
+00:10:00.420 --> 00:10:05.340
+And if we look a little bit closer we can
+also see that yeah that's a silicon die, yeah
+
+00:10:05.340 --> 00:10:11.230
+this is an upside down transistor that's uh
+definitely not a pyroelectric element and
+
+00:10:11.230 --> 00:10:17.320
+these two solder joints are presumably where
+the pyroelectric device once was I presumably
+
+00:10:17.320 --> 00:10:22.910
+broke it when I rammed that pair of side cutters
+right through the window and it like in neanderthal
+
+00:10:22.910 --> 00:10:29.829
+so uh yeah taking a look at the video and
+yeah whatever this white thing is here that's
+
+00:10:29.829 --> 00:10:36.320
+definitely broken and here again yeah that's
+broken and I presumably uh emptied that out
+
+00:10:36.320 --> 00:10:37.810
+into the bin.
+
+00:10:37.810 --> 00:10:42.959
+But fear not because through the magic of
+buying another one from Digi-Key that's probably
+
+00:10:42.959 --> 00:10:48.500
+about the same we have a second and third
+chance for me to screw it up again.
+
+00:10:48.500 --> 00:10:54.010
+But before we cut open this one a quick intermission
+instead I want to mention this this is the
+
+00:10:54.010 --> 00:10:58.589
+smartphone that's recording this video and
+it's also the one that recorded the last video
+
+00:10:58.589 --> 00:11:03.490
+about the Simpson washing machine this is
+actually my everyday smartphone that I bought
+
+00:11:03.490 --> 00:11:11.060
+last year and it's been pretty good for making
+these videos is it takes 4K well uh Sony advertises
+
+00:11:11.060 --> 00:11:17.760
+4K but it's actually not DCI 4K it's some
+weird sort of not really just barely 4K that
+
+00:11:17.760 --> 00:11:24.380
+uh some weird 21x9 aspect ratio so I just
+crop it to 1080p but regardless of that it
+
+00:11:24.380 --> 00:11:30.660
+was still a pretty good upgrade from my old
+smartphone from 2013 which was this here Nokia
+
+00:11:30.660 --> 00:11:36.630
+Lumia 1020 which has an absolutely fantastic
+camera module I mean just look at the size
+
+00:11:36.630 --> 00:11:42.910
+of this sensor module it is enormous especially
+for a smartphone it's 41 megapixel so it takes
+
+00:11:42.910 --> 00:11:50.360
+fantastic photos but because it's from 2013
+the video quality is 1080p, 30 frames per
+
+00:11:50.360 --> 00:11:57.210
+second, just barely and uh it drops most of
+those frames however this and the new Sony
+
+00:11:57.210 --> 00:12:03.910
+phone have a number of limitations for example
+the aperture is fixed as well as there's certain
+
+00:12:03.910 --> 00:12:09.230
+software limitations like you can't really
+properly adjust the white balance as well
+
+00:12:09.230 --> 00:12:15.449
+as a number of software bugs that Sony does
+not want to fix for some reason, so I decided
+
+00:12:15.449 --> 00:12:21.199
+to go out and buy a little camera that I could
+properly adjust the settings on and this is
+
+00:12:21.199 --> 00:12:26.720
+it here, well okay it's, it's not a small
+camera it's actually a professional full-frame
+
+00:12:26.720 --> 00:12:31.570
+camera but trust me I've got a good reason
+for this and of course this is just the body
+
+00:12:31.570 --> 00:12:37.110
+of the camera I also went out and bought a
+lens for it, well okay I bought seven lenses
+
+00:12:37.110 --> 00:12:43.450
+for it however they take fantastic pictures
+so it was worth it in my book now I've actually
+
+00:12:43.450 --> 00:12:48.720
+already shown you some of the pictures from
+this camera the previous PCB shots are actually
+
+00:12:48.720 --> 00:12:55.560
+from this here very fancy 300 mm telephoto
+lens which takes a fantastic PCB shots as
+
+00:12:55.560 --> 00:13:02.740
+you can see here on these PIR modules and
+here's a very nice PCB shot of an old GeForce
+
+00:13:02.740 --> 00:13:09.240
+4 card that I took for something else, but
+this here 90 mm macro lens is the one that
+
+00:13:09.240 --> 00:13:14.670
+took all of the pictures of the PIR sensor
+that you're about to see this lens is actually
+
+00:13:14.670 --> 00:13:21.880
+capable of 1:1 macro photos so they're quite
+large and very high quality it's far greater
+
+00:13:21.880 --> 00:13:26.670
+than anything I would have been able to do
+on the smartphone however I decided that that
+
+00:13:26.670 --> 00:13:31.180
+macro lens part way through the video wasn't
+really going to cut it for some of the other
+
+00:13:31.180 --> 00:13:36.019
+pictures you're going to see so one of the
+fantastic things about having a full-frame
+
+00:13:36.019 --> 00:13:41.850
+interchangeable lens camera is that I can
+jerry-rig all sorts of adapters together to
+
+00:13:41.850 --> 00:13:48.840
+make this which is a microscope objective
+on a tube extension as well as an E-mount
+
+00:13:48.840 --> 00:13:53.769
+so this is what took all of the micro photos
+at the end of the video that you'll see so
+
+00:13:53.769 --> 00:13:58.440
+I hope you enjoyed the improved quality of
+these photos I certainly enjoyed them quite
+
+00:13:58.440 --> 00:13:59.930
+a lot.
+
+00:13:59.930 --> 00:14:04.860
+And another cool thing is that this channel
+actually regained its monetization so YouTube's
+
+00:14:04.860 --> 00:14:09.930
+actually been giving me a cut of the ads you've
+been seeing on these videos now and with that
+
+00:14:09.930 --> 00:14:15.170
+money I actually went out and bought this
+SD card and this lens filter so thank you
+
+00:14:15.170 --> 00:14:19.500
+to those who have been watching the ads although
+I don't recommend it because the ads are not
+
+00:14:19.500 --> 00:14:23.990
+worth your time ,the money has actually been
+going somewhere other than YouTube's back
+
+00:14:23.990 --> 00:14:30.220
+pocket and presumably influencing my P-score,
+so enough with all of that talk let's get
+
+00:14:30.220 --> 00:14:39.449
+this macro lens on now and take a look at
+that PIR sensor module.
+
+00:14:39.449 --> 00:14:46.769
+So this here is the replacement PIR sensor
+that I bought off Digi-Key it's made by Murata
+
+00:14:46.769 --> 00:14:51.910
+which is the same as the previous sensor however
+it's a different model just because this is
+
+00:14:51.910 --> 00:14:57.149
+the one that I was able to buy um and well
+it's pretty much exactly the same it's about
+
+00:14:57.149 --> 00:15:03.920
+the same size it's a same two element thing
+so taking a rotary tool grinder to this one
+
+00:15:03.920 --> 00:15:08.940
+this time that way I don't have to break through
+the window I can just grind off the top of
+
+00:15:08.940 --> 00:15:16.019
+the metal can and we can see that it's glued
+in with this black glue and then cutting into
+
+00:15:16.019 --> 00:15:21.490
+that even more we can take all of that glue
+out and we can actually see now that piece
+
+00:15:21.490 --> 00:15:28.019
+of uh whatever it is ceramic piezoelectric
+material as well as a FR4 PCB by looks of
+
+00:15:28.019 --> 00:15:33.769
+it in this one rather than a ceramic hybrid,
+so cutting the rest of that off now and we
+
+00:15:33.769 --> 00:15:39.259
+can see Oooo, now this, this is the picture
+that I got the camera for, check this out
+
+00:15:39.259 --> 00:15:44.100
+this is actually not a single picture this
+is actually many pictures stitched together
+
+00:15:44.100 --> 00:15:50.000
+in a composite called a focus stack that way
+it's really sharp really nice but I can make
+
+00:15:50.000 --> 00:15:55.170
+this picture even better check this out *pop*
+there we go now it's good.
+
+00:15:55.170 --> 00:16:00.470
+So if I bring back that application note from
+before we can have a read of it we can see
+
+00:16:00.470 --> 00:16:05.970
+that the sensor uses a pyroelectric effect
+of a pyroelectric ceramic which is a kind
+
+00:16:05.970 --> 00:16:13.740
+of piezoelectric ceramic which is what this
+thingy here on the top is the way this works
+
+00:16:13.740 --> 00:16:19.760
+is that when a human walks past the thermal
+infrared energy heats up these little cells
+
+00:16:19.760 --> 00:16:26.380
+here which causes a ‘spontaneous polarization
+of the ceramic’ which you can see here in
+
+00:16:26.380 --> 00:16:31.699
+this figure pretty much that just means that
+it creates a voltage differential between
+
+00:16:31.699 --> 00:16:38.380
+the two electrodes of the sensor pretty much
+like you'd see in the piezoelectric effect
+
+00:16:38.380 --> 00:16:45.100
+of certain ceramic capacitors as well as piezoelectric
+speakers and vibration sensors it's pretty
+
+00:16:45.100 --> 00:16:51.970
+much the same thing however it's based on
+temperature so it's pyroelectric.
+
+00:16:51.970 --> 00:16:57.660
+And as you'd expect in order to be so sensitive
+to something as minuscule as the thermal energy
+
+00:16:57.660 --> 00:17:03.350
+from a human walking past the thermal mass
+of this piece of ceramic has to be extremely
+
+00:17:03.350 --> 00:17:10.620
+low so if we take a look here at this here
+telecentric photo side-on we can see that
+
+00:17:10.620 --> 00:17:18.110
+the ceramic element on the top is extremely
+thin it's actually 0.1 mm thick so it has
+
+00:17:18.110 --> 00:17:26.130
+a decently good response to any sort of thermal
+energy but it's still not as good as the micro-balances
+
+00:17:26.130 --> 00:17:32.090
+in something like a microbolometer that you'll
+see in like a thermal camera but that's so
+
+00:17:32.090 --> 00:17:36.900
+much more expensive something like this is
+amazingly cheap and can be put into something
+
+00:17:36.900 --> 00:17:44.770
+like a consumer product we can also see here
+that the element has two black rectangles
+
+00:17:44.770 --> 00:17:50.600
+and that's because there's actually two separate
+pyroelectric elements here and on the next
+
+00:17:50.600 --> 00:17:55.980
+page of the application note we can see that
+it starts to talk about why the optics are
+
+00:17:55.980 --> 00:18:00.610
+so necessary for this thing and that's because
+the lens at the front of this thing actually
+
+00:18:00.610 --> 00:18:07.230
+focuses onto two separate points which is
+these two separate pyroelectric elements and
+
+00:18:07.230 --> 00:18:13.080
+that allows it to sense movement much more
+easily at a much lower cost it doesn't have
+
+00:18:13.080 --> 00:18:19.409
+to measure absolute temperature it just has
+to recognize changes in the thermal energy
+
+00:18:19.409 --> 00:18:25.960
+when someone walks through the field of view
+in specific ways and that's why before in
+
+00:18:25.960 --> 00:18:34.490
+the HPM product information we saw that they
+took the time to explain to the customer how
+
+00:18:34.490 --> 00:18:39.490
+you should place it and in what ways it will
+be triggered it won't be triggered when you
+
+00:18:39.490 --> 00:18:46.190
+walk away from the sensor but when you walk
+across its field of view it will trigger and
+
+00:18:46.190 --> 00:18:52.760
+if we cut this PCB out of the PIR sensor we
+can see on the other side that there's a transistor
+
+00:18:52.760 --> 00:18:58.210
+and two capacitors and that's exactly what
+they said would be there in the product data
+
+00:18:58.210 --> 00:19:03.760
+sheet and also as you'd expect because this
+thing is so thin if you just take a pair of
+
+00:19:03.760 --> 00:19:08.650
+tweezers and poke at it pretty much breaks
+immediately.
+
+00:19:08.650 --> 00:19:16.110
+I'll also mention that there are actually
+different types of pyroelectric infrared sensors
+
+00:19:16.110 --> 00:19:23.419
+that can detect more different types of movements
+like this here quad type pyroelectric sensor
+
+00:19:23.419 --> 00:19:28.270
+that has four of these elements and that can
+detect people moving across the field of view
+
+00:19:28.270 --> 00:19:34.140
+both sideways as well as up to down so there
+are certain applications where you'd want
+
+00:19:34.140 --> 00:19:38.539
+to use this for instance on a ceiling.
+
+00:19:38.539 --> 00:19:44.790
+And the whilst we're talking about infrared
+thermal sensors I should mention that a pyroelectric
+
+00:19:44.790 --> 00:19:52.130
+sensor is not a thermopile sensor a thermopile
+sensor is what you'd see in say one of those
+
+00:19:52.130 --> 00:19:59.090
+non-contact infrared sensors and to be honest
+this is more comparable to something like
+
+00:19:59.090 --> 00:20:04.820
+a microbolometer that I mentioned before that
+you'd see in a thermal camera however this
+
+00:20:04.820 --> 00:20:10.630
+is working on a completely different sort
+of theory it's similar but I have one of them
+
+00:20:10.630 --> 00:20:16.120
+so let's take it apart and see what's inside
+we can see here that the external construction
+
+00:20:16.120 --> 00:20:22.659
+is very similar we have a metal can with a
+window on top presumably it's probably silicon
+
+00:20:22.659 --> 00:20:27.860
+the sort of wavelengths are similar but it
+probably doesn't have the 5 µm filter maybe
+
+00:20:27.860 --> 00:20:30.460
+a different type of filter.
+
+00:20:30.460 --> 00:20:34.790
+So taking a big cut out of the side of this
+thing we can see that there's actually a silicon
+
+00:20:34.790 --> 00:20:39.620
+die inside here not just a ceramic element
+there's also another thing off to the right
+
+00:20:39.620 --> 00:20:45.530
+here and the datasheet says that this is a
+thermistor which is used for getting the ambient
+
+00:20:45.530 --> 00:20:51.130
+temperature of the die and that's used for
+compensating it which we'll get into later
+
+00:20:51.130 --> 00:20:55.770
+and here we have a picture of a second one
+I cut open a bit more carefully and this picture
+
+00:20:55.770 --> 00:21:00.740
+is actually taken on the microscope lens this
+is again another composite although this one
+
+00:21:00.740 --> 00:21:04.840
+I did quite quickly so it's a bit screwed
+up in some places but we can clearly make
+
+00:21:04.840 --> 00:21:10.169
+out this black square here in the middle of
+this silicon die as well as all of the connections
+
+00:21:10.169 --> 00:21:15.419
+that go to it although only two of them are
+actually connected to the outside world so
+
+00:21:15.419 --> 00:21:21.220
+let's take a closer look at that so here's
+another composite microscope picture of that
+
+00:21:21.220 --> 00:21:27.049
+this time with the entire can cut off and
+we can make out much more clearly that black
+
+00:21:27.049 --> 00:21:32.310
+area with all of the connections although
+here I've actually damaged it a bit and that
+
+00:21:32.310 --> 00:21:37.220
+was just by blowing on it with some air to
+clean it off and that's because if we look
+
+00:21:37.220 --> 00:21:42.549
+closely we can see that this black thing is
+actually suspended on all of these connections
+
+00:21:42.549 --> 00:21:47.630
+this thing is actually floating in the middle
+of it which as you can guess means the thermal
+
+00:21:47.630 --> 00:21:53.950
+mass of it is much much lower than the previous
+piece of ceramic that was 0.1 mm thick I don't
+
+00:21:53.950 --> 00:21:58.960
+know how thin this is but I imagine it's a
+lot thinner and taking an even closer look
+
+00:21:58.960 --> 00:22:04.360
+now we can see all these individual wires
+going from the piece of silicon to this sensor
+
+00:22:04.360 --> 00:22:10.110
+region they're all individually separate you
+might think that these are just for mechanical
+
+00:22:10.110 --> 00:22:15.020
+support to suspend it in the middle however
+they're actually essential to how this thing
+
+00:22:15.020 --> 00:22:18.470
+works as a thermopile.
+
+00:22:18.470 --> 00:22:23.970
+To explain how this works I have this here
+graphic from Shanghai Sunshine Technologies
+
+00:22:23.970 --> 00:22:28.700
+and we can see that this thing is just made
+up of a whole bunch of thermoelectric elements
+
+00:22:28.700 --> 00:22:35.350
+just like a K-type thermocouple that has two
+dissimilar metals this uses two dissimilar
+
+00:22:35.350 --> 00:22:40.470
+metal connections between the floating black
+area in the middle that's heated up by the
+
+00:22:40.470 --> 00:22:46.320
+thermal radiation from whatever you're pointing
+it at and the actual silicon surround which
+
+00:22:46.320 --> 00:22:52.929
+has a known temperature for cold junction
+compensation which is derived from that thermistor
+
+00:22:52.929 --> 00:22:57.789
+on the metal body that we saw before and of
+course the reason why there's more than just
+
+00:22:57.789 --> 00:23:04.000
+one junction is to get better sensitivity
+and of course this black area here although
+
+00:23:04.000 --> 00:23:08.760
+it just looks black it's presumably some sort
+of very specialized material that's very absorbent
+
+00:23:08.760 --> 00:23:15.429
+to IR wavelengths as well and that would increase
+the sensitivity as well it also looks as if
+
+00:23:15.429 --> 00:23:20.980
+it has a sort of wavy texture to it it's not
+completely flat I would assume that this has
+
+00:23:20.980 --> 00:23:26.160
+something to do with reducing reflections
+inside the device as that may influence the
+
+00:23:26.160 --> 00:23:32.690
+readings if certain angles were to cause reflections
+and increase the reading we can also see these
+
+00:23:32.690 --> 00:23:39.750
+etching windows in the diagram these are a
+undesirable thing these are more just to facilitate
+
+00:23:39.750 --> 00:23:47.220
+the manufacture of the device these actually
+result in the absorber area not being able
+
+00:23:47.220 --> 00:23:52.270
+to conduct heat through the substrate to the
+hot junctions of the thermocouples so the
+
+00:23:52.270 --> 00:23:57.470
+shape and design of these is quite important
+for sensitivity as well also just because
+
+00:23:57.470 --> 00:24:01.990
+we can't see them in the other one doesn't
+mean they're not there the black absorber
+
+00:24:01.990 --> 00:24:08.080
+material on top of the substrate presumably
+is filling those gaps in however in order
+
+00:24:08.080 --> 00:24:12.580
+to see that I'd probably need some sort of
+like scanning electron microscope and yeah
+
+00:24:12.580 --> 00:24:17.539
+I don't think I'm going to buy one of them
+anytime soon now just to show you how thin
+
+00:24:17.539 --> 00:24:24.620
+this thing is here I have a pair of tweezers
+and just gently pushing on it we can see that
+
+00:24:24.620 --> 00:24:30.880
+it just completely disintegrates this thing
+is extremely thin just blowing on it too hard
+
+00:24:30.880 --> 00:24:35.630
+will cause damage to it and taking the piece
+of silicon out now and putting it on the end
+
+00:24:35.630 --> 00:24:40.130
+of some tweezers we can really see just how
+small this thing is and turning it around
+
+00:24:40.130 --> 00:24:45.549
+we can actually see the back side of it has
+been machined out or I guess etched I'm not
+
+00:24:45.549 --> 00:24:51.080
+really familiar with the exact principles
+of how the sort of mems device would be manufactured
+
+00:24:51.080 --> 00:24:55.880
+but I can certainly appreciate just how cool
+it is that we can manufacture stuff like this
+
+00:24:55.880 --> 00:25:01.600
+not only once off but on such a scale but
+the average consumer can buy one of these
+
+00:25:01.600 --> 00:25:06.750
+for very little money especially when a couple
+decades ago this sort of technology would
+
+00:25:06.750 --> 00:25:13.840
+be considered black magic as something like
+this would be obscenely expensive to manufacture.
+
+00:25:13.840 --> 00:25:17.880
+And that's it for this video thank you for
+watching hope you enjoyed it and I'll just
+
+00:25:17.880 --> 00:25:20.160
+leave you now with some pictures I took throughout
+this project.     :)
+
