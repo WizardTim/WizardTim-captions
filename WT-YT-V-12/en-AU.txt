@@ -1,4 +1,4 @@
-Failed PIR Sensor Teardown
+PIR Failure Analysis & Pyro-electric Sensor Teardown
 
 Taking a quick look at a failed HPM XL632 PIR sensor from the late 2000's and analysing how it failed followed by an in depth teardown of the pyro-electric sensor package (KDS9 5E1), as well as an IRA-S210ST01 manufactured by Murata and comparing it to a ZTP-148SRC1 thermopile manufactured by Thermometrics (Amphenol).
 
