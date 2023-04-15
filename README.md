@@ -6,6 +6,7 @@ This repository is mostly just for me to keep better track of changes and to bac
 ## YouTube Videos
 | #  | Title (en-AU)                                                                                                 | Title & Description                                         | Captions                                            |
 |---:|---------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|-----------------------------------------------------|
+| 21 | [ROBUS PIR Motion Sensor Repair & Failure Analysis](https://www.youtube.com/watch?v=W4ifnLcAIDM)              | [en-AU](./WT-YT-V-21/en-AU.txt)                             | [en-AU](./WT-YT-V-21/en-AU.vtt)                     |
 | 20 | *WIP*                                                                                                         |                                                             |                                                     |
 | 19 | *CANCELED*                                                                                                    |                                                             |                                                     |
 | 18 | *WIP*                                                                                                         |                                                             |                                                     |
@@ -31,11 +32,12 @@ This repository is mostly just for me to keep better track of changes and to bac
 * Files for each language use the [IETF BCP 47](https://www.w3.org/International/articles/language-tags/) language tag as the filename.
 * ***Title & Description*** are stored in a .txt file with the first line being the title, and all lines below being the description.
 * ***Captions*** are stored in a .vtt (WebVTT) file (advanced subtitle formats such as SubStation Alpha are not supported).
+* All files are UTF-8 encoded
 
 ## FAQ
 
 ### Do people watch your videos with captions enabled?
-Yes, as of 2022, 32% of viewers watch with English captions, many from countries where the primary language is not English.
+Yes, as of 2023, 48.0% of viewers watch with English captions, many from countries where the primary language is not English.
 
 ### Can I contribute corrections here?
 Yes, you can create a pull request with corrections and I will review them, those changes will be reflected on YouTube when I merge it.

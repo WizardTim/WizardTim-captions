@@ -1,0 +1,17 @@
+ROBUS PIR Motion Sensor Repair & Failure Analysis
+
+Troubleshooting and repairing a broken PIR (Passive Infra-Red) motion sensor sold under the ROBUS brand (RU360-01) and then taking a closer look at the failure mode and discussing the robustness of X class safety capacitors and a teardown of the failed capacitor and speculation about the root cause of the failure.
+
+@EEVblog2 video discussing film capacitor failure modes with Ron Demcko (KYOCERA AVX)
+https://www.youtube.com/watch?v=9V99J22aiLE
+
+00:00 - Looking at the failed PIR sensor
+03:15 - Verifying fault condition
+04:52 - Testing capacitors
+07:19 - Replacing capacitors
+09:22 - Verifying repair
+10:08 - Capacitor Impulse withstanding tests
+13:34 - Failed capacitor teardown
+16:14 - Outro
+
+REF: WT-YT-V-21

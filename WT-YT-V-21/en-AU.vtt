@@ -1,0 +1,618 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.000
+English (AU) (Spoken) [Manually Transcribed Captions]
+github.com/WizardTim/WizardTim-captions
+
+00:00:01.000 --> 00:00:07.680
+So in the last video we had a look at this&nbsp;
+here PIR sensor manufactured by HPM and we&nbsp;&nbsp;
+
+00:00:07.680 --> 00:00:12.300
+had a close look at what's inside one of&nbsp;
+these as well as the failure mode it had&nbsp;&nbsp;
+
+00:00:12.300 --> 00:00:18.660
+and then we had a closer look at this here&nbsp;
+metal can which is the pyroelectric sensor&nbsp;&nbsp;
+
+00:00:19.380 --> 00:00:25.380
+since making that video I've been given this&nbsp;
+here PIR sensor this one is manufactured by&nbsp;&nbsp;
+
+00:00:25.380 --> 00:00:33.600
+ROBUS and is a "PROTON UNIVERSAL 360° PIR" 
+sensor designed for mounting on ceilings&nbsp;&nbsp;
+
+00:00:34.980 --> 00:00:41.220
+and this particular unit has been given to me&nbsp;
+because it's broken so in this video we're going&nbsp;&nbsp;
+
+00:00:41.220 --> 00:00:48.300
+to try and repair it but also we'll take a look&nbsp;
+at the actual PIR sensor as well because in the&nbsp;&nbsp;
+
+00:00:48.300 --> 00:00:53.880
+previous video I mentioned that there was such a&nbsp;
+thing as a quad type pyroelectric sensor and well&nbsp;&nbsp;
+
+00:00:53.880 --> 00:00:59.940
+judging by the shape of the detection pattern of&nbsp;
+this unit I suspect that we're going to see one&nbsp;&nbsp;
+
+00:00:59.940 --> 00:01:06.840
+of these inside so let's take this thing apart&nbsp;
+taking the front bezel off there's no screws&nbsp;&nbsp;
+
+00:01:06.840 --> 00:01:12.660
+underneath however there are three adjustment pots&nbsp;
+one for lux which is because this has day night&nbsp;&nbsp;
+
+00:01:12.660 --> 00:01:18.660
+sensing number for sensitivity and another&nbsp;
+for time which is how long it spends on for&nbsp;&nbsp;
+
+00:01:20.340 --> 00:01:26.220
+but on the back we can see there's four screws&nbsp;
+as well as this nice little connection block for&nbsp;&nbsp;
+
+00:01:26.220 --> 00:01:33.720
+the wires and this is only a three pin device&nbsp;
+one for the active in, one for neutral and one&nbsp;&nbsp;
+
+00:01:33.720 --> 00:01:38.580
+for the active out which is switched and of&nbsp;
+course there's no earth because there's no&nbsp;&nbsp;
+
+00:01:38.580 --> 00:01:46.140
+exposed metal work on this device so taking those&nbsp;
+four screws out and we can see what's inside and&nbsp;&nbsp;
+
+00:01:46.140 --> 00:01:50.940
+there's even more than the previous PIR sensor&nbsp;
+there's actually three of these rather large&nbsp;&nbsp;
+
+00:01:50.940 --> 00:01:58.800
+16-pin SOIC devices plenty of capacitors probably&nbsp;
+for timing and bulk decoupling as well as a nice&nbsp;&nbsp;
+
+00:01:58.800 --> 00:02:06.060
+fuse the output relay some X class suppression&nbsp;
+capacitors and of course the potentiometers but&nbsp;&nbsp;
+
+00:02:06.060 --> 00:02:13.320
+taking a look at the others oh okay uh I was&nbsp;
+expecting a single quad type pyroelectric&nbsp;&nbsp;
+
+00:02:13.320 --> 00:02:19.980
+sensor but actually they've gone and put three I&nbsp;
+would presume just normal dual type pyroelectric&nbsp;&nbsp;
+
+00:02:19.980 --> 00:02:28.560
+sensors in at 120 degrees to get there 360 degree&nbsp;
+coverage but this will certainly work as well but&nbsp;&nbsp;
+
+00:02:28.560 --> 00:02:33.780
+I guess we're not going to take a look at a quad&nbsp;
+type sensor today taking a look back at the datasheet
+
+00:02:33.780 --> 00:02:39.540
+now I now realize I was rather misled by&nbsp;
+this figure here we can see that at a ceiling&nbsp;&nbsp;
+
+00:02:39.540 --> 00:02:45.900
+height of say three meters it's expected to have&nbsp;
+a spread of 18 meters I now realize that this&nbsp;&nbsp;
+
+00:02:45.900 --> 00:02:54.000
+diagram is definitely not to scale here it is two&nbsp;
+scale so yeah it's definitely got a much larger 
+
+00:02:54.000 --> 00:03:00.720
+range than I thought you definitely can't achieve&nbsp;
+this sort of range without either some very fancy&nbsp;&nbsp;
+
+00:03:00.720 --> 00:03:07.380
+optics or rather just shoving three of them on a&nbsp;
+PCB under the same optics which is certainly&nbsp;&nbsp;
+
+00:03:07.380 --> 00:03:11.220
+going to get the job done but unfortunately&nbsp;
+means we're not going to be looking at a&nbsp;&nbsp;
+
+00:03:11.220 --> 00:03:18.300
+quad type sensor today however this PIR sensor&nbsp;
+still needs to be repaired so let's see if we&nbsp;&nbsp;
+
+00:03:18.300 --> 00:03:25.500
+can identify the failure mode because I was told&nbsp;
+this thing just behaves strangely and doesn't work&nbsp;&nbsp;
+
+00:03:25.500 --> 00:03:31.380
+properly it's not that it doesn't work at all or&nbsp;
+that it's uh done weird things made a loud bang&nbsp;&nbsp;
+
+00:03:31.380 --> 00:03:38.340
+sound it's just that it's not reliable so I've&nbsp;
+got some test probes on the AC in as well as&nbsp;&nbsp;
+
+00:03:38.340 --> 00:03:46.140
+the neutral and that's connected to this plug and&nbsp;
+plugging it into 240 volts AC there's no explosion&nbsp;&nbsp;
+
+00:03:47.820 --> 00:03:54.300
+I heard some clicking so it's doing&nbsp;
+something now let's get this flipped over&nbsp;&nbsp;
+
+00:03:54.300 --> 00:04:01.200
+because there's a LED on the other side plugging&nbsp;
+it in again and yeah there's some weird clicking&nbsp;&nbsp;
+
+00:04:01.860 --> 00:04:06.660
+uh and this red light's flashing let me&nbsp;
+dim the light so you can see that better&nbsp;&nbsp;
+
+00:04:07.680 --> 00:04:14.880
+so the red LED is flashing quickly looking at the&nbsp;
+manual this appears to be the warm-up routine that&nbsp;&nbsp;
+
+00:04:14.880 --> 00:04:21.720
+goes for a minute and after a minute that light&nbsp;
+stops flashing and if I bring my hand close to it&nbsp;&nbsp;
+
+00:04:21.720 --> 00:04:30.240
+it does actually activate although it's it doesn't&nbsp;
+seem to actually switch properly and after it does&nbsp;&nbsp;
+
+00:04:30.240 --> 00:04:37.740
+it once it doesn't seem to want to do it again so&nbsp;
+there's some sort of weird thing happening here&nbsp;&nbsp;
+
+00:04:37.740 --> 00:04:46.440
+I'm wondering if maybe the relay...? is the relay&nbsp;
+closing drawing too much power and then browning&nbsp;out&nbsp;
+
+00:04:46.440 --> 00:04:52.020
+the power supply that's the only thing&nbsp;
+I can imagine that would create this symptom&nbsp;&nbsp;
+
+00:04:52.980 --> 00:04:59.340
+so I guess the first thing we're going to&nbsp;
+try is to check the power supply now this&nbsp;&nbsp;
+
+00:04:59.340 --> 00:05:06.540
+thing uses a capacitive dropper power supply&nbsp;
+which is non-isolated it seems to use these two&nbsp;&nbsp;
+
+00:05:06.540 --> 00:05:13.380
+capacitors here I'm not quite sure why there's&nbsp;
+two of them or actually it's probably just the&nbsp;&nbsp;
+
+00:05:13.380 --> 00:05:17.760
+one of them's for the control electronics&nbsp;
+and the other one is for the relay coil&nbsp;&nbsp;
+
+00:05:18.360 --> 00:05:27.240
+so testing the first capacitor we should get 100&nbsp;
+nanofarads and yea 32 is definitely not 100
+
+00:05:28.380 --> 00:05:36.900
+uh that's the right thing right? yeah that's the&nbsp;
+100 nanofarad capacitor yep so that uh... it could&nbsp;&nbsp;
+
+00:05:36.900 --> 00:05:41.880
+be that it's in circuit but that doesn't&nbsp;
+seem right uh checking the other one this&nbsp;&nbsp;
+
+00:05:41.880 --> 00:05:53.340
+one should be 470 nanofarads and it's 383&nbsp;
+yeah these capacitors have me a bit suspicious&nbsp;&nbsp;
+
+00:05:55.320 --> 00:06:02.220
+so let me get these capacitors out and we can test&nbsp;
+them outside of the circuit so I've got here this&nbsp;&nbsp;
+
+00:06:02.220 --> 00:06:09.420
+LCR meter which is better than the DMM and it's&nbsp;
+measuring 381 nanofarad so yeah it's definitely&nbsp;&nbsp;
+
+00:06:09.420 --> 00:06:16.380
+not 470 there's something wrong with this one and&nbsp;
+the other one which should measure 100 nanofarads&nbsp;&nbsp;
+
+00:06:16.380 --> 00:06:24.000
+is 31.8 so yeah both of these capacitors&nbsp;
+are just completely rooted especially this&nbsp;&nbsp;
+
+00:06:24.000 --> 00:06:30.240
+100 nanofarad one which is actually about 32&nbsp;
+nanofarads this thing is going to cause all sorts&nbsp;&nbsp;
+
+00:06:30.240 --> 00:06:34.200
+of havoc in the circuit it's just not going&nbsp;
+to supply enough current to run the circuit&nbsp;&nbsp;
+
+00:06:35.340 --> 00:06:41.160
+so I reckon there's a pretty good indication that&nbsp;
+this is what the problem is and of course these&nbsp;&nbsp;
+
+00:06:41.160 --> 00:06:47.220
+capacitive dropper power supplies do actually fail&nbsp;
+quite often you'll see a lot of YouTube videos&nbsp;&nbsp;
+
+00:06:47.220 --> 00:06:53.460
+and Wiki articles and blog posts about people&nbsp;
+repairing these capacitive droppers because the&nbsp;&nbsp;
+
+00:06:53.460 --> 00:07:00.540
+capacitor has lost its capacitance it's quite a&nbsp;
+common thing so I really wouldn't recommend one of&nbsp;&nbsp;
+
+00:07:00.540 --> 00:07:07.260
+these capacitive dropper power suppliers they're&nbsp;
+just not very reliable although the advantage&nbsp;&nbsp;
+
+00:07:07.260 --> 00:07:12.960
+that they have is that they're absolutely dirt&nbsp;
+cheap you really cannot beat the price point of a&nbsp;&nbsp;
+
+00:07:12.960 --> 00:07:18.420
+capacitor rather than an entire switch mode power&nbsp;
+supply so that's why they get used all the time&nbsp;&nbsp;
+
+00:07:19.020 --> 00:07:24.720
+but at the very least it makes for a very easy&nbsp;
+repair so I had a look around for some replacement&nbsp;&nbsp;
+
+00:07:24.720 --> 00:07:33.360
+capacitors and I settled on the MKP339 X2 series&nbsp;
+from Vishay these are some quite nice capacitors&nbsp;&nbsp;
+
+00:07:33.360 --> 00:07:39.420
+these are from a reputable brand and they're&nbsp;
+rated to higher voltages than the previous ones&nbsp;&nbsp;
+
+00:07:39.420 --> 00:07:48.120
+the previous ones were 275 volt AC rated these&nbsp;
+ones are 310 volts AC rated so these should last&nbsp;&nbsp;
+
+00:07:48.120 --> 00:07:54.420
+hopefully a lot longer than the previous ones and&nbsp;
+of course because these are used in a capacitive&nbsp;&nbsp;
+
+00:07:54.420 --> 00:08:01.440
+dropper it's important to use the same values&nbsp;
+unlike bulk decoupling capacitors where you can&nbsp;&nbsp;
+
+00:08:01.440 --> 00:08:07.800
+just increase the capacitance value and increase&nbsp;
+the voltage rating so long as they're at least a&nbsp;&nbsp;
+
+00:08:07.800 --> 00:08:13.560
+certain number it's good enough in this case the&nbsp;
+capacitance value is very important because if&nbsp;&nbsp;
+
+00:08:13.560 --> 00:08:18.540
+you make the capacitance value too large you'll&nbsp;
+pass too much current and you risk overheating&nbsp;&nbsp;
+
+00:08:18.540 --> 00:08:26.280
+the shunt regulator inside so we're going to go&nbsp;
+for a 0.47 microfarad and 0.1 microfarad which&nbsp;&nbsp;
+
+00:08:26.280 --> 00:08:32.580
+is exactly the same as was in here before and of&nbsp;
+course I chose one with the correct case size&nbsp;&nbsp;
+
+00:08:32.580 --> 00:08:39.000
+and lead spacing so it would fit in the PCB and&nbsp;
+just to be safe I check them on the LCR meter when&nbsp;&nbsp;
+
+00:08:39.000 --> 00:08:43.680
+I got them and they were indeed the correct&nbsp;
+value within the tolerances of manufacturing&nbsp;&nbsp;
+
+00:08:45.120 --> 00:08:49.260
+so it's just a matter of cleaning up those&nbsp;
+plated through holes to get the components&nbsp;&nbsp;
+
+00:08:49.260 --> 00:08:54.960
+in thankfully I've repaired my desoldering&nbsp;
+gun since the last video it's very important&nbsp;&nbsp;
+
+00:08:54.960 --> 00:08:58.860
+you keep your desoldering gun nice and&nbsp;
+clean make sure that there's absolutely&nbsp;&nbsp;
+
+00:08:58.860 --> 00:09:02.460
+nothing left in the tube otherwise it&nbsp;
+will clog and you'll have a bad day&nbsp;&nbsp;
+
+00:09:03.360 --> 00:09:07.740
+and apart from that there's really nothing&nbsp;
+complicated about this repair it's just a matter&nbsp;&nbsp;
+
+00:09:07.740 --> 00:09:14.100
+of soldering two components in nice and easy and&nbsp;
+now that I've got them in we can see that they fit&nbsp;&nbsp;
+
+00:09:14.100 --> 00:09:20.340
+nicely and they are indeed the correct height so&nbsp;
+they won't interfere with the plastic enclosure
+
+00:09:22.680 --> 00:09:26.100
+and then just putting it all&nbsp;
+back together and plugging it in&nbsp;&nbsp;
+
+00:09:26.640 --> 00:09:29.820
+and I'd let it go through its&nbsp;
+one minute warm-up procedure&nbsp;&nbsp;
+
+00:09:30.360 --> 00:09:35.940
+and if we listen carefully we can hear&nbsp;
+it click when I put my hand over it
+
+00:09:38.524 --> 00:09:39.333
+*click*
+
+00:09:40.075 --> 00:09:43.740
+and I've spent several minutes&nbsp;
+waving my hands in front of this thing&nbsp;&nbsp;
+
+00:09:43.740 --> 00:09:49.260
+and taking them away trying to catch this&nbsp;
+thing out make it fail again but I haven't&nbsp;&nbsp;
+
+00:09:49.260 --> 00:09:56.040
+made it fail again so I think it's fixed now&nbsp;
+so that was a rather nice repair very easy to&nbsp;&nbsp;
+
+00:09:56.040 --> 00:10:02.940
+fault find very obvious failure mode and very&nbsp;
+easy solution and these capacitors were only&nbsp;&nbsp;
+
+00:10:02.940 --> 00:10:08.400
+about a dollar fifty each which is quite nice&nbsp;
+because these things are about sixty dollars new&nbsp;&nbsp;
+
+00:10:09.180 --> 00:10:14.520
+so that's it for the repair but let's take a look&nbsp;
+at these capacitors a bit closer whilst I've got&nbsp;&nbsp;
+
+00:10:14.520 --> 00:10:21.660
+them out and also because I was denied that quad&nbsp;
+type pyroelectric sensor so let's test these&nbsp;&nbsp;
+
+00:10:21.660 --> 00:10:28.740
+capacitors to the extreme and uh... well actually&nbsp;
+let's just blow them up so I've got here&nbsp;&nbsp;
+
+00:10:28.740 --> 00:10:35.820
+a 1.5 kilovolt peak to peak biphasic pulse this is&nbsp;
+a 360 joule pulse delivered over 15 milliseconds&nbsp;&nbsp;
+
+00:10:35.820 --> 00:10:43.020
+actually let's put this into perspective&nbsp;
+here is a quarter watt 56 ohm resistor and
+
+00:10:43.934 --> 00:10:44.434
+*pop*
+
+00:10:45.138 --> 00:10:51.780
+yeah it just explodes yeah that's uh not a&nbsp;
+very happy resistor you can see here in this&nbsp;&nbsp;
+
+00:10:51.780 --> 00:10:57.900
+microscope picture the resistive element has just&nbsp;
+been completely vaporized off the resistor core&nbsp;&nbsp;
+
+00:10:57.900 --> 00:11:07.620
+but also let's have a look at a 400 volt [4.7]&nbsp;
+microfarad capacitor out of a USB charger and
+
+00:11:08.534 --> 00:11:09.321
+*pop*
+
+00:11:09.962 --> 00:11:16.251
+yeah that thing never stood a chance either&nbsp;
+so let's test our two other capacitors&nbsp;&nbsp;
+
+00:11:16.620 --> 00:11:21.720
+this is exactly the same pulse so I'm&nbsp;
+hoping we get some nice fireworks although&nbsp;&nbsp;
+
+00:11:21.720 --> 00:11:26.220
+I am hoping that the Vishay one stands&nbsp;
+up a little bit better and hoping that&nbsp;&nbsp;
+
+00:11:26.220 --> 00:11:32.260
+the JIMSON brand one just catastrophically&nbsp;
+explodes everywhere and...
+
+00:11:33.079 --> 00:11:33.768
+*contactor thud*
+
+00:11:34.037 --> 00:11:35.441
+oh what?!
+
+00:11:35.441 --> 00:11:39.813
+oh what nah 
+ uh let me do that again 
+
+00:11:40.611 --> 00:11:41.111
+*contactor thud*
+
+00:11:41.111 --> 00:11:45.397
+oh what?! who's bloody well sold me capacitors that don't explode! 
+Come on!
+
+00:11:46.560 --> 00:11:52.080
+so as you're probably screaming at the screen&nbsp;
+right now these are of course X2 class safety&nbsp;&nbsp;
+
+00:11:52.080 --> 00:11:57.420
+capacitors all of these funny markings on the&nbsp;
+side of them aren't just to make it look pretty&nbsp;&nbsp;
+
+00:11:57.420 --> 00:12:03.780
+these are actually all sorts of compliance and&nbsp;
+regulatory markings that say that it complies&nbsp;&nbsp;
+
+00:12:03.780 --> 00:12:10.740
+with all sorts of safety standards that say it can&nbsp;
+withstand certain sorts of abuse so in the case of&nbsp;&nbsp;
+
+00:12:10.740 --> 00:12:17.520
+these two capacitors that are X2 class rated even&nbsp;
+this JIMSON I don't know I've never heard of them&nbsp;&nbsp;
+
+00:12:17.520 --> 00:12:24.000
+before but even this one is rated to withstand&nbsp;
+1.2 kilovolts for a minute and this Vishay one&nbsp;&nbsp;
+
+00:12:24.000 --> 00:12:31.560
+specifically says it withstands 24 pulses at 2.5&nbsp;
+kilovolts so unfortunately I don't have anything&nbsp;&nbsp;
+
+00:12:31.560 --> 00:12:37.440
+that goes that high I did pulse this thing 15&nbsp;
+times and it didn't explode so yeah unfortunately&nbsp;&nbsp;
+
+00:12:37.440 --> 00:12:43.500
+I can't make it explode but I hope that this at&nbsp;
+least demonstrated that these little unassuming&nbsp;&nbsp;
+
+00:12:43.500 --> 00:12:49.080
+capacitors can actually put up a pretty good fight&nbsp;
+against what's on the other side of these outlets&nbsp;&nbsp;
+
+00:12:49.620 --> 00:12:55.920
+the sort of stuff in our electrical distribution&nbsp;
+network is rather big and scary and can create&nbsp;&nbsp;
+
+00:12:55.920 --> 00:13:00.840
+all sorts of weird transients that have the&nbsp;
+opportunity to blow things up if it weren't&nbsp;&nbsp;
+
+00:13:00.840 --> 00:13:06.780
+for these little suppression capacitors although&nbsp;
+of course it's not just these capacitors that save&nbsp;&nbsp;
+
+00:13:06.780 --> 00:13:13.020
+your gadget from being exploded there's of course&nbsp;
+also Y class suppression capacitors as well as&nbsp;&nbsp;
+
+00:13:13.020 --> 00:13:19.680
+varistors and PTCs and NTCs and of course fuses&nbsp;
+and those are the components that will generally&nbsp;&nbsp;
+
+00:13:19.680 --> 00:13:27.000
+be absorbing the large pulses these X class&nbsp;
+capacitors are more so for EMI suppression&nbsp;&nbsp;
+
+00:13:27.000 --> 00:13:33.300
+when another device nearby emits some sort of&nbsp;
+interference that could interfere with your device&nbsp;&nbsp;
+
+00:13:34.560 --> 00:13:41.040
+but that's all nice and everything but why&nbsp;
+is it that I just put 1.5 kilovolts through&nbsp;&nbsp;
+
+00:13:41.040 --> 00:13:46.680
+this capacitor and it didn't explode in&nbsp;
+fact it didn't even lose any capacitance&nbsp;&nbsp;
+
+00:13:47.700 --> 00:13:55.740
+uh if it wasn't line transients that made this&nbsp;
+100 nanofarad capacitor go to 32 nanofarads what&nbsp;&nbsp;
+
+00:13:55.740 --> 00:14:02.160
+did because that's quite often what I see people&nbsp;
+will say that these things get overvolted and they&nbsp;&nbsp;
+
+00:14:02.160 --> 00:14:09.540
+internally fuse and lose capacitance over time so&nbsp;
+let's cut one of these open and see if we can find&nbsp;&nbsp;
+
+00:14:09.540 --> 00:14:15.420
+anything that's obviously wrong with it these&nbsp;
+capacitors inside uh just like any other normal&nbsp;&nbsp;
+
+00:14:15.420 --> 00:14:21.120
+metallized polypropylene capacitor however they&nbsp;
+of course need to withstand much higher voltages&nbsp;&nbsp;
+
+00:14:21.120 --> 00:14:29.040
+and energies so the layer thickness is higher but&nbsp;
+also they have much better potting in this epoxy&nbsp;&nbsp;
+
+00:14:29.040 --> 00:14:35.640
+and plastic shell so I've got the capacitor out&nbsp;
+of the potting now and I've unwound a bit and we&nbsp;&nbsp;
+
+00:14:35.640 --> 00:14:44.280
+can see uh... yea I don't know what I'm looking&nbsp;
+at actually um yeah there seems to be some&nbsp;&nbsp;
+
+00:14:44.280 --> 00:14:50.460
+delamination going on here but I have no clue&nbsp;
+what that means however thankfully I have this&nbsp;&nbsp;
+
+00:14:50.460 --> 00:14:55.980
+here failure diagram and this shows all sorts&nbsp;
+of different failure modes that can happen as&nbsp;&nbsp;
+
+00:14:55.980 --> 00:15:03.120
+well as their causes and of course our value mode&nbsp;
+is the capacitance decrease one and that seems to&nbsp;&nbsp;
+
+00:15:03.120 --> 00:15:10.080
+be caused by all sorts of different things uh but&nbsp;
+I'm wondering if uh maybe humidity has something&nbsp;&nbsp;
+
+00:15:10.080 --> 00:15:16.500
+to do with it partly because looking back at&nbsp;
+the footage we can see that there was actually&nbsp;&nbsp;
+
+00:15:16.500 --> 00:15:22.320
+this here void in the epoxy so I'm wondering if&nbsp;
+moisture was able to more easily penetrate this&nbsp;&nbsp;
+
+00:15:23.580 --> 00:15:30.360
+but this speculation is mostly driven by a video&nbsp;
+I saw on the EEVblog channel in which Dave Jones&nbsp;&nbsp;
+
+00:15:30.360 --> 00:15:36.720
+had an interview with Ron Demko from KYOCERA AVX&nbsp;
+in which he went through this document and had&nbsp;&nbsp;
+
+00:15:36.720 --> 00:15:42.000
+a talk about all the sorts of different failure&nbsp;
+modes but specifically had a look at a capacitor&nbsp;&nbsp;
+
+00:15:42.000 --> 00:15:48.240
+that Dave Jones had out of a heater which was a&nbsp;
+very similar capacitor and had some rather similar&nbsp;&nbsp;
+
+00:15:48.240 --> 00:15:54.660
+sort of failure indicators as my capacitor so I'm&nbsp;
+wondering if moisture was the cause whether it was&nbsp;&nbsp;
+
+00:15:54.660 --> 00:16:01.920
+from poor encapsulation or from the manufacturing&nbsp;
+process I have no clue but I do recommend watching&nbsp;&nbsp;
+
+00:16:01.920 --> 00:16:06.780
+this video if you want to know more Ron goes&nbsp;
+into quite a lot of detail about these safety&nbsp;&nbsp;
+
+00:16:06.780 --> 00:16:12.420
+capacitors and their failure modes as well as&nbsp;
+a number of other different capacitor types so&nbsp;&nbsp;
+
+00:16:12.420 --> 00:16:18.360
+I'll leave a link to that in the description and&nbsp;
+that's it for this video so thanks for watching
+
